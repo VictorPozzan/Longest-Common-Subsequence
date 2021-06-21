@@ -1,0 +1,9 @@
+DataBase/Strings10.txt
+size: 2
+string found: QW
+comparisons:
+
+DataBase/Strings25.txt
+size: 4
+string found: LRBH
+comparisons:

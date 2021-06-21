@@ -1,0 +1,10 @@
+
+DataBase/Strings10.txt
+time: 0.0037801265716552734
+
+DataBase/Strings25.txt
+time: 267.2203907966614
+
+
+
+

@@ -1,25 +1,32 @@
+
 # Dynamic Programming implementation of LCS problem
+
+import time
+
 class DynamicLCS:
-        
-    def lcs(self, X , Y):
+
+    def lcs(self, X, Y):
         m = len(X)
         n = len(Y)
-
+        start = time.time()
         L = [[0]*(n+1) for i in range(m+1)]
 
         for i in range(m+1):
             for j in range(n+1):
-                if i == 0 or j == 0 :
+                if i == 0 or j == 0:
                     L[i][j] = 0
                 elif X[i-1] == Y[j-1]:
                     L[i][j] = L[i-1][j-1]+1
                 else:
-                    L[i][j] = max(L[i-1][j] , L[i][j-1])
+                    L[i][j] = max(L[i-1][j], L[i][j-1])
 
-        sub_string = self.findSubString(L, m, n, X, Y);
-        
-        return L[m][n], sub_string
-  
+        end = time.time()
+        executionTime = end - start
+
+        sub_string = self.findSubString(L, m, n, X, Y)
+
+        return L[m][n], sub_string, executionTime
+
     def findSubString(self, L,  m, n, X, Y):
         index = L[m][n]
         lsc = [""] * (index+1)

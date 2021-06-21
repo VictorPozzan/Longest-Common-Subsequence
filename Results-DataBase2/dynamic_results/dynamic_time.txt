@@ -1,0 +1,88 @@
+
+DataBase2/Strings02.txt
+time: 1.0967254638671875e-05
+
+DataBase2/Strings03.txt
+time: 1.0251998901367188e-05
+
+DataBase2/Strings04.txt
+time: 1.3828277587890625e-05
+
+DataBase2/Strings05.txt
+time: 1.7404556274414062e-05
+
+DataBase2/Strings06.txt
+time: 2.09808349609375e-05
+
+DataBase2/Strings07.txt
+time: 2.5510787963867188e-05
+
+DataBase2/Strings08.txt
+time: 3.147125244140625e-05
+
+DataBase2/Strings09.txt
+time: 3.981590270996094e-05
+
+DataBase2/Strings10.txt
+time: 4.696846008300781e-05
+
+DataBase2/Strings11.txt
+time: 5.507469177246094e-05
+
+DataBase2/Strings12.txt
+time: 6.437301635742188e-05
+
+DataBase2/Strings13.txt
+time: 7.343292236328125e-05
+
+DataBase2/Strings14.txt
+time: 0.0001423358917236328
+
+DataBase2/Strings15.txt
+time: 9.512901306152344e-05
+
+DataBase2/Strings16.txt
+time: 0.0001068115234375
+
+DataBase2/Strings17.txt
+time: 0.00012373924255371094
+
+DataBase2/Strings18.txt
+time: 0.00013327598571777344
+
+DataBase2/Strings19.txt
+time: 0.0001461505889892578
+
+DataBase2/Strings20.txt
+time: 0.00016164779663085938
+
+DataBase2/Strings21.txt
+time: 0.0001766681671142578
+
+DataBase2/Strings22.txt
+time: 0.0001926422119140625
+
+DataBase2/Strings23.txt
+time: 0.0002086162567138672
+
+DataBase2/Strings24.txt
+time: 0.00022745132446289062
+
+DataBase2/Strings25.txt
+time: 0.0002446174621582031
+
+DataBase2/Strings26.txt
+time: 0.0002627372741699219
+
+DataBase2/Strings27.txt
+time: 0.0002815723419189453
+
+DataBase2/Strings28.txt
+time: 0.000301361083984375
+
+DataBase2/Strings29.txt
+time: 0.0003223419189453125
+
+DataBase2/Strings30.txt
+time: 0.00043082237243652344
+

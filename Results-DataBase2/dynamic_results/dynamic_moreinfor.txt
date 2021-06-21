@@ -1,0 +1,145 @@
+DataBase2/Strings02.txt
+size: 1
+string found: B
+comparisons:
+
+DataBase2/Strings03.txt
+size: 1
+string found: C
+comparisons:
+
+DataBase2/Strings04.txt
+size: 2
+string found: CD
+comparisons:
+
+DataBase2/Strings05.txt
+size: 3
+string found: ACC
+comparisons:
+
+DataBase2/Strings06.txt
+size: 3
+string found: BAB
+comparisons:
+
+DataBase2/Strings07.txt
+size: 4
+string found: CCBA
+comparisons:
+
+DataBase2/Strings08.txt
+size: 3
+string found: AAA
+comparisons:
+
+DataBase2/Strings09.txt
+size: 3
+string found: FBC
+comparisons:
+
+DataBase2/Strings10.txt
+size: 3
+string found: GDD
+comparisons:
+
+DataBase2/Strings11.txt
+size: 3
+string found: FJF
+comparisons:
+
+DataBase2/Strings12.txt
+size: 2
+string found: JD
+comparisons:
+
+DataBase2/Strings13.txt
+size: 5
+string found: GIHDH
+comparisons:
+
+DataBase2/Strings14.txt
+size: 7
+string found: LGDAFJI
+comparisons:
+
+DataBase2/Strings15.txt
+size: 4
+string found: HMMJ
+comparisons:
+
+DataBase2/Strings16.txt
+size: 4
+string found: DHHM
+comparisons:
+
+DataBase2/Strings17.txt
+size: 7
+string found: QGKDEPP
+comparisons:
+
+DataBase2/Strings18.txt
+size: 5
+string found: RGJQG
+comparisons:
+
+DataBase2/Strings19.txt
+size: 6
+string found: RMDDEB
+comparisons:
+
+DataBase2/Strings20.txt
+size: 5
+string found: COMGP
+comparisons:
+
+DataBase2/Strings21.txt
+size: 5
+string found: KRCQG
+comparisons:
+
+DataBase2/Strings22.txt
+size: 7
+string found: EAHTVLB
+comparisons:
+
+DataBase2/Strings23.txt
+size: 7
+string found: BGRUPRR
+comparisons:
+
+DataBase2/Strings24.txt
+size: 5
+string found: GSHIK
+comparisons:
+
+DataBase2/Strings25.txt
+size: 8
+string found: LKFTEXBS
+comparisons:
+
+DataBase2/Strings26.txt
+size: 8
+string found: TCFGRBBG
+comparisons:
+
+DataBase2/Strings27.txt
+size: 7
+string found: HK[BRBO
+comparisons:
+
+DataBase2/Strings28.txt
+size: 7
+string found: EMFLWHI
+comparisons:
+
+DataBase2/Strings29.txt
+size: 8
+string found: QXESZOOT
+comparisons:
+
+DataBase2/Strings30.txt
+size: 6
+string found: ZQYLDE
+comparisons:
+
