@@ -1,0 +1,4 @@
+DataBase1/Strings10.txt
+size: 2
+string found: QW
+comparisons: 1203877

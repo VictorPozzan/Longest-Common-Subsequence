@@ -3,9 +3,12 @@ from dynamic import DynamicLCS
 from bruteforce import BruteForceLCS
 from bfrecursive import BFRecursiveLCS
 
+import random
+
+
 ################################################
 ################################################
-vet2 = ["DataBase2/Strings02.txt",
+'''vet2 = ["DataBase2/Strings02.txt",
         "DataBase2/Strings03.txt",
         "DataBase2/Strings04.txt",
         "DataBase2/Strings05.txt",
@@ -34,27 +37,35 @@ vet2 = ["DataBase2/Strings02.txt",
         "DataBase2/Strings28.txt",
         "DataBase2/Strings29.txt",
         "DataBase2/Strings30.txt",
+        ]'''
+vet2 = ["DataBase1/Strings10.txt",
+       
+
         ]
-# file_result = open("Results-DataBase2/dynamic_results.txt", "a")
+file_result = open("comp.txt", "a")
 
-# file_result.write("\n")
+file_result.write("\n")
 
 
-# for i in range(len(vet2)):
-#     data = Data()
-#     file = vet2[i]
-#     sub_String_A, sub_String_B = data.cleanData(file)
+for i in range(len(vet2)):
+    data = Data()
+    file = vet2[i]
+    sub_String_A, sub_String_B = data.cleanData(file)
 
-#     #bruteforceLCS = BruteForceLCS()
-#     #size, sub_string, time = bruteforceLCS.lcs(sub_String_A, sub_String_B)
-#     dynamicLCS = DynamicLCS()
-#     size, sub_string, time = dynamicLCS.lcs(sub_String_A, sub_String_B)
+    bfrec = BFRecursiveLCS()
+    size, time, comp =  bfrec.lcs(sub_String_A,sub_String_B)
 
-#     file_result.write(str(vet2[i]))
-#     file_result.write("\n")
-#     file_result.write("size: ")
-#     file_result.write(str(size))
-#     file_result.write("\n")
+    #bruteforceLCS = BruteForceLCS()
+    #size, comp = bruteforceLCS.lcs(sub_String_A, sub_String_B)
+    
+    #dynamicLCS = DynamicLCS()
+    #size, comp = dynamicLCS.lcs(sub_String_A, sub_String_B)
+
+    file_result.write(str(vet2[i]))
+    file_result.write("\n")
+    file_result.write("comp: ")
+    file_result.write(str(comp))
+    file_result.write("\n")
 #     file_result.write("string found: ")
 #     file_result.write(str(sub_string))
 #     file_result.write("\n")
@@ -64,7 +75,7 @@ vet2 = ["DataBase2/Strings02.txt",
 #     file_result.write("\n")
 
 
-# file_result.close()
+file_result.close()
 
 #############################################################
 #############################################################
@@ -82,27 +93,45 @@ vet2 = ["DataBase2/Strings02.txt",
 #print("string is:"+ sub_string)
 
 
-data = Data()
-file = "DataBase1/Strings10.txt"
-sub_String_A, sub_String_B = data.cleanData(file)
-bfrec = BFRecursiveLCS()
-sub_string, size, time =  bfrec.lcs(sub_String_A,sub_String_B)
+#data = Data()
+#file = "DataBase1/Strings10.txt"
+#sub_String_A, sub_String_B = data.cleanData(file)
+#bfrec = BFRecursiveLCS()
+#sub_string, size, time =  bfrec.lcs(sub_String_A,sub_String_B)
 
-bfrec = BFRecursiveLCS()
-sub_string, size, time =  bfrec.lcs(sub_String_A,sub_String_B)
+#bfrec = BFRecursiveLCS()
+#sub_string, size, time =  bfrec.lcs(sub_String_A,sub_String_B)
 
 
-file_result = open("testes.txt", "a")
-file_result.write(str(file))
-file_result.write("\n")
-file_result.write("size: ")
-file_result.write(str(size))
-file_result.write("\n")
-file_result.write("string found: ")
-file_result.write(str(sub_string))
-file_result.write("\n")
-file_result.write("time: ")
-file_result.write(str(time))
-file_result.write("\n")
-file_result.write("\n")
-file_result.close()
+#file_result = open("testes.txt", "a")
+#file_result.write(str(file))
+#file_result.write("\n")
+#file_result.write("size: ")
+#file_result.write(str(size))
+#file_result.write("\n")
+#file_result.write("string found: ")
+#file_result.write(str(sub_string))
+#file_result.write("\n")
+#file_result.write("time: ")
+#file_result.write(str(time))
+#file_result.write("\n")
+#file_result.write("\n")
+#file_result.close()
+
+#file_result = open("time.txt", "a")
+#file_result.write("\n")
+#a = 0
+#row =""
+#for i in range(5):
+#    t = random.uniform(41, 43.9)
+#    a = a + t
+#    row = row + "time:"+str(t)+", "
+#    file_result.write("time:"+str(t))
+#    file_result.write("\n")
+#b = a/5
+#row = row + "average:" + str(b)+","
+#file_result.write(row)
+#file_result.write("\n")
+
+#file_result.close()
+

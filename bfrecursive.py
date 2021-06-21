@@ -4,6 +4,7 @@
 import time
 
 class BFRecursiveLCS:
+    comp = 0
 
     def lcs(self, X, Y):
         start = time.time()
@@ -14,16 +15,19 @@ class BFRecursiveLCS:
         end = time.time()
         executionTime = end - start
 
-        strig = self.slcs(X,Y)
+        #strig = self.slcs(X,Y)
 
-        return strig, size, executionTime
+        return size, executionTime, self.comp
 
     def lcs_recursive(self ,X, Y, m, n):
+        self.comp = self.comp + 2
         if m == 0 or n == 0:
             return 0;
         elif X[m-1] == Y[n-1]:
+            self.comp = self.comp + 1
             return 1 + self.lcs_recursive(X, Y, m-1, n-1)
         else:
+            self.comp = self.comp + 1
             return max(self.lcs_recursive(X, Y, m, n-1), self.lcs_recursive(X, Y, m-1, n))
     
 

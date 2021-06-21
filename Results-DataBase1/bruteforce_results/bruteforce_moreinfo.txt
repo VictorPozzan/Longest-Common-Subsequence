@@ -1,9 +1,9 @@
 DataBase/Strings10.txt
 size: 2
 string found: QW
-comparisons:
+comparisons: 32382
 
 DataBase/Strings25.txt
 size: 4
 string found: LRBH
-comparisons:
+comparisons: 2567439563
