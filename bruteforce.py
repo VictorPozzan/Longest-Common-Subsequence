@@ -11,7 +11,7 @@ class BruteForceLCS:
         longest = ""
         step = -1
 
-        for i in range(m, 0, step):  # for decremental
+        for i in range(m, 0, step):
             sub = self.getSubString(i, str1)
             isSeq = self.isSubSeq(sub, str2)
             if isSeq:

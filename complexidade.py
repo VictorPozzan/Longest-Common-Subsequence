@@ -17,7 +17,7 @@
                     L[i][j] = max(L[i-1][j], L[i][j-1]) # 8(n²+4n) --> 8n²+32n
 
     #FORÇA BRUTA
-    def lcs(self, str1, str2): # 22n^2+8n+11
+    def lcs(self, str1, str2): # 22n^2+8n+11 --> O(n²)
         size = len(str1) - 1 #3
         m = (1 << size) - 1 #3
         maxLen = 0 #1
