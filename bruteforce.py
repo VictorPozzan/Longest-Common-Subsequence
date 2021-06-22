@@ -1,7 +1,5 @@
 
 import time
-
-
 class BruteForceLCS:
     comp = 0
 
@@ -16,9 +14,7 @@ class BruteForceLCS:
         for i in range(m, 0, step):  # for decremental
             sub = self.getSubString(i, str1)
             isSeq = self.isSubSeq(sub, str2)
-            self.comp = self.comp + 1
             if isSeq:
-                self.comp = self.comp + 1
                 if len(sub) > maxLen:
                     longest = sub
                     maxLen = len(sub)
@@ -26,13 +22,12 @@ class BruteForceLCS:
         end = time.time()
         executionTime = end - start
 
-        return len(longest), self.comp,#longest, executionTime
+        return len(longest), executionTime, self.comp, longest
 
     def getSubString(self, m, str1):
         s = ""
         size = len(str1)-1
         for i in range(1, size+1):
-            self.comp = self.comp + 1
             if self.isOne(m, i):
                 s = str1[size - i] + s
 
@@ -41,13 +36,11 @@ class BruteForceLCS:
     def isSubSeq(self, sub, str2):
         si = 0
         size = len(str2)
-        #print("sub: ",sub)
 
         for i in range(size):
             self.comp = self.comp + 1
             if sub[si] == str2[i]:
                 si = si + 1
-                self.comp = self.comp + 1
                 if si == len(sub):
                     return True
 
@@ -56,5 +49,4 @@ class BruteForceLCS:
     def isOne(self, m, i):
         i = i - 1
         k = m & (1 << i)
-        self.comp = self.comp + 1
         return k > 0

@@ -1,144 +1,144 @@
 DataBase2/Strings02.txt
 size: 
 string found: 
-comparisons:
+comparisons: 23
 
 DataBase2/Strings03.txt
 size: 
 string found: 
-comparisons:
+comparisons: 76
 
 DataBase2/Strings04.txt
 size: 
 string found: 
-comparisons:
+comparisons: 202
 
 DataBase2/Strings05.txt
 size: 
 string found: 
-comparisons:
+comparisons: 509
 
 DataBase2/Strings06.txt
 size: 
 string found: 
-comparisons:
+comparisons: 1276
 
 DataBase2/Strings07.txt
 size:
 string found: 
-comparisons:
+comparisons: 3039
 
 DataBase2/Strings08.txt
 size:
 string found:
-comparisons:
+comparisons: 6470
 
 DataBase2/Strings09.txt
 size:
 string found:
-comparisons:
+comparisons: 14378
 
 DataBase2/Strings10.txt
 size:
 string found:
-comparisons:
+comparisons: 33134
 
 DataBase2/Strings11.txt
 size:
 string found:
-comparisons:
+comparisons: 70223
 
 DataBase2/Strings12.txt
 size:
 string found:
-comparisons:
+comparisons: 156506
 
 DataBase2/Strings13.txt
 size:
 string found:
-comparisons:
+comparisons: 331329
 
 DataBase2/Strings14.txt
 size:
 string found:
-comparisons:
+comparisons: 750452
 
 DataBase2/Strings15.txt
 size:
 string found:
-comparisons:
+comparisons: 1522653
 
 DataBase2/Strings16.txt
 size:
 string found:
-comparisons:
+comparisons: 3269814
 
 DataBase2/Strings17.txt
 size:
 string found:
-comparisons:
+comparisons: 6988246
 
 DataBase2/Strings18.txt
 size:
 string found:
-comparisons:
+comparisons: 14735008
 
 DataBase2/Strings19.txt
 size:
 string found:
-comparisons:
+comparisons: 31300611
 
 DataBase2/Strings20.txt
 size:
 string found:
-comparisons:
+comparisons: 65955932
 
 DataBase2/Strings21.txt
 size:
 string found:
-comparisons:
+comparisons: 135864143
 
 DataBase2/Strings22.txt
 size:
 string found:
-comparisons:
+comparisons: 286315894
 
 DataBase2/Strings23.txt
 size:
 string found:
-comparisons:
+comparisons: 593605484
 
 DataBase2/Strings24.txt
 size:
 string found:
-comparisons:
+comparisons: 1249595154
 
 DataBase2/Strings25.txt
 size:
 string found:
-comparisons:
+comparisons: 2597549669
 
 DataBase2/Strings26.txt
 size:
 string found:
-comparisons:
+comparisons: 5447858766
 
 DataBase2/Strings27.txt
 size:
 string found:
-comparisons:
-
+comparisons: 11111095491
+             
 DataBase2/Strings28.txt
 size:
 string found:
-comparisons:
+comparisons: 23555522440
 
 DataBase2/Strings29.txt
 size:
 string found:
-comparisons:
+comparisons: 49937707572
 
 DataBase2/Strings30.txt
 size:
 string found:
-comparisons:
+comparisons: 105867940052

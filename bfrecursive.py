@@ -15,9 +15,9 @@ class BFRecursiveLCS:
         end = time.time()
         executionTime = end - start
 
-        #strig = self.slcs(X,Y)
+        string = self.slcs(X,Y)
 
-        return size, executionTime, self.comp
+        return size, executionTime, self.comp, string
 
     def lcs_recursive(self ,X, Y, m, n):
         self.comp = self.comp + 2
@@ -32,18 +32,13 @@ class BFRecursiveLCS:
     
 
     def slcs(self, str1, str2):
-        # If either string is empty, stop
         if len(str1) == 0 or len(str2) == 0:
             return ""
         
-        # First property
         if str1[-1] == str2[-1]:
             return self.slcs(str1[:-1], str2[:-1]) + str1[-1]
             
-        # Second proprerty
-        # Last of str1 not needed:
         t1 = self.slcs(str1[:-1], str2)
-        # Last of str2 is not needed
         t2 = self.slcs(str1, str2[:-1])
         if len(t1) > len(t2):
             return t1

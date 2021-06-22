@@ -1,4 +1,0 @@
-
-
-DataBase1/Strings10.txt
-comp: 1203877

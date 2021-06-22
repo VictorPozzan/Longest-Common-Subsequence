@@ -1,0 +1,84 @@
+DataBase2/Strings02.txt
+size: 1
+string found: B
+comparisons: 36
+
+DataBase2/Strings03.txt
+size: 1
+string found: C
+comparisons: 78
+
+DataBase2/Strings04.txt
+size: 2
+string found: CD
+comparisons: 301
+
+DataBase2/Strings05.txt
+size: 3
+string found: ACC
+comparisons: 407
+
+DataBase2/Strings06.txt
+size: 3
+string found: BAB
+comparisons: 1942
+
+DataBase2/Strings07.txt
+size: 4
+string found: CCBA
+comparisons: 2885
+
+DataBase2/Strings08.txt
+size: 3
+string found: AAA
+comparisons: 10444
+
+DataBase2/Strings09.txt
+size: 3
+string found: FBC
+comparisons: 138787
+
+DataBase2/Strings10.txt
+size: 3
+string found: GDD
+comparisons: 717714
+
+DataBase2/Strings11.txt
+size: 3
+string found: FJF
+comparisons: 1679299
+
+DataBase2/Strings12.txt
+size: 2
+string found: JD
+comparisons: 9565871
+
+DataBase2/Strings13.txt
+size: 5
+string found: GIHDH
+comparisons: 24276150
+
+DataBase2/Strings14.txt
+size: 7
+string found: LGDAFJI
+comparisons: 165647084
+
+DataBase2/Strings15.txt
+size: 4
+string found: HMMJ
+comparisons: 352113515
+
+DataBase2/Strings16.txt
+size: 4
+string found: DHHM
+comparisons: 2138850797
+
+DataBase2/Strings17.txt
+size: 7
+string found: QGKDEPP
+comparisons: 2967322101
+
+DataBase2/Strings18.txt
+size: 5
+string found: RGJQG
+comparisons: 26611900327

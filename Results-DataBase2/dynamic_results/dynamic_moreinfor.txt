@@ -1,145 +1,203 @@
 DataBase2/Strings02.txt
 size: 1
 string found: B
-comparisons:
+comparisons: 30
+comp caracter:6
+
 
 DataBase2/Strings03.txt
 size: 1
 string found: C
-comparisons:
+comparisons: 52
+comp caracter:12
+
 
 DataBase2/Strings04.txt
 size: 2
 string found: CD
-comparisons:
+comparisons: 80
+comp caracter:20
+
 
 DataBase2/Strings05.txt
 size: 3
 string found: ACC
-comparisons:
+comparisons: 114
+comp caracter:30
+
 
 DataBase2/Strings06.txt
 size: 3
 string found: BAB
-comparisons:
+comparisons: 154
+comp caracter:42
+
 
 DataBase2/Strings07.txt
 size: 4
 string found: CCBA
-comparisons:
+comparisons: 200
+comp caracter:56
+
 
 DataBase2/Strings08.txt
 size: 3
 string found: AAA
-comparisons:
+comparisons: 252
+comp caracter:72
+
 
 DataBase2/Strings09.txt
 size: 3
 string found: FBC
-comparisons:
+comparisons: 310
+comp caracter:90
+
 
 DataBase2/Strings10.txt
 size: 3
 string found: GDD
-comparisons:
+comparisons: 374
+comp caracter:110
+
 
 DataBase2/Strings11.txt
 size: 3
 string found: FJF
-comparisons:
+comparisons: 444
+comp caracter:132
+
 
 DataBase2/Strings12.txt
 size: 2
 string found: JD
-comparisons:
+comparisons: 520
+comp caracter:156
+
 
 DataBase2/Strings13.txt
 size: 5
 string found: GIHDH
-comparisons:
+comparisons: 602
+comp caracter:182
+
 
 DataBase2/Strings14.txt
 size: 7
 string found: LGDAFJI
-comparisons:
+comparisons: 690
+comp caracter:210
+
 
 DataBase2/Strings15.txt
 size: 4
 string found: HMMJ
-comparisons:
+comparisons: 784
+comp caracter:240
+
 
 DataBase2/Strings16.txt
 size: 4
 string found: DHHM
-comparisons:
+comparisons: 884
+comp caracter:272
+
 
 DataBase2/Strings17.txt
 size: 7
 string found: QGKDEPP
-comparisons:
+comparisons: 990
+comp caracter:306
+
 
 DataBase2/Strings18.txt
 size: 5
 string found: RGJQG
-comparisons:
+comparisons: 1102
+comp caracter:342
+
 
 DataBase2/Strings19.txt
 size: 6
 string found: RMDDEB
-comparisons:
+comparisons: 1220
+comp caracter:380
+
 
 DataBase2/Strings20.txt
 size: 5
 string found: COMGP
-comparisons:
+comparisons: 1334
+comp caracter:420
+
 
 DataBase2/Strings21.txt
 size: 5
 string found: KRCQG
-comparisons:
+comparisons: 1474
+comp caracter:462
+
 
 DataBase2/Strings22.txt
 size: 7
 string found: EAHTVLB
-comparisons:
+comparisons: 1610
+comp caracter:506
+
 
 DataBase2/Strings23.txt
 size: 7
 string found: BGRUPRR
-comparisons:
+comparisons: 1752
+comp caracter:552
+
 
 DataBase2/Strings24.txt
 size: 5
 string found: GSHIK
-comparisons:
+comparisons: 1900
+comp caracter:600
+
 
 DataBase2/Strings25.txt
 size: 8
 string found: LKFTEXBS
-comparisons:
+comparisons: 2054
+comp caracter:650
+
 
 DataBase2/Strings26.txt
 size: 8
 string found: TCFGRBBG
-comparisons:
+comparisons: 2214
+comp caracter:702
+
 
 DataBase2/Strings27.txt
 size: 7
 string found: HK[BRBO
-comparisons:
+comparisons: 2380
+comp caracter:756
+
 
 DataBase2/Strings28.txt
 size: 7
 string found: EMFLWHI
-comparisons:
+comparisons: 2552
+comp caracter:812
+
 
 DataBase2/Strings29.txt
 size: 8
 string found: QXESZOOT
-comparisons:
+comparisons: 2730
+comp caracter:870
+
 
 DataBase2/Strings30.txt
 size: 6
 string found: ZQYLDE
-comparisons:
+comparisons: 2914
+comp caracter:930
+
 
