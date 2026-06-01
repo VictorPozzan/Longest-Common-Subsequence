@@ -1,12 +1,38 @@
-# Longest Common Subsequence
+# Longest Common Subsequence - Algorithm Comparison
 
-This project compares three strategies for solving the Longest Common Subsequence (LCS) problem:
+Practical comparison of Python implementations for solving the Longest Common Subsequence (LCS) problem.
 
-- dynamic programming
+This repository compares the same problem across three algorithmic strategies so their scaling behavior can be observed directly. It started as a college assignment and now serves as a compact technical study of algorithm behavior, benchmarking, and trade-offs.
+
+## What is LCS?
+
+Longest Common Subsequence is the problem of finding the longest subsequence shared by two sequences while preserving the relative order of elements.
+
+## Subsequence vs Substring
+
+A substring must be contiguous.
+
+A subsequence preserves order but may skip characters.
+
+Example using `ABCDE`:
+
+- `BCD` is a substring
+- `ACE` is a subsequence
+
+## Implemented algorithms
+
 - brute force
 - recursive brute force
+- dynamic programming
 
-The repository started as a college assignment and now works as a small experiment platform for showing how algorithmic complexity changes runtime in practice.
+## Project goals
+
+This repository compares the implemented strategies in terms of:
+
+- execution time
+- number of comparisons
+- LCS length
+- practical execution limits
 
 ## Why this project is interesting
 
@@ -15,7 +41,7 @@ The same problem is solved with very different approaches, which makes the repos
 - analyzing time complexity in a concrete way
 - discussing trade-offs between simplicity and scalability
 - demonstrating why dynamic programming is powerful
-- generating benchmark data for reports, classes, or presentations
+- generating benchmark data for technical notes, classes, or presentations
 
 ## Project structure
 
@@ -35,6 +61,11 @@ The same problem is solved with very different approaches, which makes the repos
 ## How to run
 
 Python 3.9+ is enough. There are no external dependencies.
+
+The repository currently uses:
+
+- `DataBase1/` for larger input files
+- `DataBase2/` for smaller benchmark-friendly inputs
 
 Run a single file comparison:
 
@@ -60,19 +91,6 @@ Export benchmark results to CSV:
 python main.py benchmark DataBase2 --output-csv benchmark-results.csv
 ```
 
-## Safety limits
-
-Brute-force approaches grow exponentially and quickly become impractical. To keep the CLI usable, the project skips unsafe inputs by default:
-
-- brute force: skips files with input length above 18
-- recursive brute force: skips files with input length above 12
-
-If you really want to run them anyway, use:
-
-```bash
-python main.py benchmark DataBase2 --allow-slow
-```
-
 ## Example output
 
 ```text
@@ -86,6 +104,23 @@ Dynamic programming   | B           | 1      | 4           | 0.010000  | -
 Brute force           | B           | 1      | 3           | 0.030000  | -
 Recursive brute force | B           | 1      | 4           | 0.005000  | -
 ```
+
+## Safety limits
+
+Brute-force approaches grow exponentially and quickly become impractical. To keep the CLI usable, the project skips unsafe inputs by default:
+
+- brute force: skips files with input length above 18
+- recursive brute force: skips files with input length above 12
+
+If you really want to run them anyway, use:
+
+```bash
+python main.py benchmark DataBase2 --allow-slow
+```
+
+## Project status
+
+This repository is an evolving technical study focused on correctness, benchmarking, and clear documentation of algorithm behavior.
 
 ## What can be explored next
 
