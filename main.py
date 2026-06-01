@@ -9,4 +9,4 @@ if __name__ == "__main__":
 
     from lcs.cli import main
 
-    main()
+    main(command_name="python main.py")
