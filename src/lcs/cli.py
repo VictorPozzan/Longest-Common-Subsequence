@@ -1,4 +1,6 @@
 import argparse
+import shlex
+import sys
 
 from .benchmark import (
     ALGORITHM_DISPLAY,
@@ -97,8 +99,12 @@ def parse_args(argv=None):
     return parser.parse_args(argv)
 
 
-def main(argv=None):
+def main(argv=None, command_name="python -m lcs.cli"):
     args = parse_args(argv)
+    argv_list = list(argv) if argv is not None else sys.argv[1:]
+    command_text = command_name
+    if argv_list:
+        command_text = f"{command_text} {' '.join(shlex.quote(arg) for arg in argv_list)}"
 
     if args.command is None:
         compare_file(str(DEFAULT_FILE), list(ALGORITHM_DISPLAY.keys()), False)
@@ -117,6 +123,7 @@ def main(argv=None):
             args.runs,
             args.warmup_runs,
             args.timeout_seconds,
+            command_text=command_text,
         )
         return
 
