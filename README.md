@@ -61,8 +61,7 @@ The same problem is solved with very different approaches, which makes the repos
 |       |-- charts/
 |       |-- summary.csv
 |       `-- environment.md
-|-- tests/
-`-- plans/
+`-- tests/
 ```
 
 ## How to run
