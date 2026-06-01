@@ -66,9 +66,11 @@ class BenchmarkTests(unittest.TestCase):
         self.assertEqual(summary_rows[0]["completed_runs"], "1")
         self.assertEqual(summary_rows[0]["status_summary"], "completed")
         self.assertEqual(summary_rows[0]["mean_comparisons"], "9.00")
-        self.assertEqual(summary_rows[0]["mean_time_seconds"], rows[1]["execution_time_seconds"])
+        self.assertEqual(
+            summary_rows[0]["mean_time_seconds"], rows[1]["execution_time_seconds"]
+        )
         self.assertIn("Command: python -m lcs.cli benchmark --dataset dataset", environment_text)
-        self.assertIn(f"Dataset: {dataset}", environment_text)
+        self.assertIn(f"Dataset: {dataset.as_posix()}", environment_text)
         self.assertIn("Runs per input: 1", environment_text)
         self.assertIn("Warmup runs: 1", environment_text)
 
