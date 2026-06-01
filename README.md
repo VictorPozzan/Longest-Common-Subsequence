@@ -56,6 +56,9 @@ The same problem is solved with very different approaches, which makes the repos
 |-- results/
 |   |-- legacy/
 |   `-- current/
+|       |-- benchmark.csv
+|       |-- summary.csv
+|       `-- environment.md
 |-- tests/
 `-- plans/
 ```
@@ -98,6 +101,12 @@ Export benchmark results to CSV:
 ```bash
 python main.py benchmark data/database2 --output results/current/benchmark.csv
 ```
+
+Each benchmark publication writes three artifacts to `results/current/`:
+
+- `benchmark.csv`: raw rows for every warmup and measured run
+- `summary.csv`: aggregated rows per input and algorithm
+- `environment.md`: machine, command, and benchmark configuration metadata
 
 The benchmark currently defaults to:
 
