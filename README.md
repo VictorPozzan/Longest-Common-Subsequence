@@ -49,6 +49,7 @@ The same problem is solved with very different approaches, which makes the repos
 .
 |-- pyproject.toml
 |-- main.py
+|-- scripts/
 |-- src/lcs/
 |-- data/
 |   |-- database1/
@@ -57,6 +58,7 @@ The same problem is solved with very different approaches, which makes the repos
 |   |-- legacy/
 |   `-- current/
 |       |-- benchmark.csv
+|       |-- charts/
 |       |-- summary.csv
 |       `-- environment.md
 |-- tests/
@@ -65,12 +67,20 @@ The same problem is solved with very different approaches, which makes the repos
 
 ## How to run
 
-Python 3.9+ is enough. There are no external dependencies.
+Python 3.9+ is enough for the comparison and benchmark flow.
+
+Chart generation uses an optional `matplotlib` dependency.
 
 If you want to use the package module path, install the repository in editable mode:
 
 ```bash
 python -m pip install -e .
+```
+
+If you also want chart generation support:
+
+```bash
+python -m pip install -e .[charts]
 ```
 
 The repository currently uses:
@@ -107,6 +117,18 @@ Each benchmark publication writes three artifacts to `results/current/`:
 - `benchmark.csv`: raw rows for every warmup and measured run
 - `summary.csv`: aggregated rows per input and algorithm
 - `environment.md`: machine, command, and benchmark configuration metadata
+
+Generate charts from the published summary:
+
+```bash
+python scripts/generate_charts.py --input results/current/summary.csv --output results/current/charts
+```
+
+This command writes:
+
+- `results/current/charts/execution_time_by_input_size.png`
+- `results/current/charts/comparisons_by_input_size.png`
+- `results/current/charts/lcs_length_by_input_size.png`
 
 The benchmark currently defaults to:
 
