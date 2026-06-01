@@ -1,13 +1,14 @@
-from time import perf_counter
+from lcs.models import LCSResult
 
 
 class DynamicLCS:
+    algorithm_name = "dynamic_programming"
+
     def __init__(self):
         self.comp = 0
 
-    def lcs(self, string_a, string_b):
+    def solve(self, string_a, string_b):
         self.comp = 0
-        start = perf_counter()
 
         rows = len(string_a)
         cols = len(string_b)
@@ -21,12 +22,27 @@ class DynamicLCS:
                 else:
                     table[row][col] = max(table[row - 1][col], table[row][col - 1])
 
-        sub_string = self.findSubString(table, rows, cols, string_a, string_b)
-        execution_time = perf_counter() - start
+        subsequence = self.find_subsequence(table, rows, cols, string_a, string_b)
+        lcs_length = table[rows][cols]
 
-        return table[rows][cols], execution_time, self.comp, sub_string
+        if lcs_length != len(subsequence):
+            raise ValueError("Reconstructed LCS length does not match the DP table result.")
 
-    def findSubString(self, table, row, col, string_a, string_b):
+        return LCSResult(
+            algorithm=self.algorithm_name,
+            input_a=string_a,
+            input_b=string_b,
+            input_size_a=rows,
+            input_size_b=cols,
+            lcs=subsequence,
+            lcs_length=lcs_length,
+            comparisons=self.comp,
+        )
+
+    def lcs(self, string_a, string_b):
+        return self.solve(string_a, string_b)
+
+    def find_subsequence(self, table, row, col, string_a, string_b):
         lcs_chars = []
 
         while row > 0 and col > 0:

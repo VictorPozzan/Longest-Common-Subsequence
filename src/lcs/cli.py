@@ -4,6 +4,7 @@ from .benchmark import (
     ALGORITHM_DISPLAY,
     DEFAULT_DATASET,
     DEFAULT_FILE,
+    algorithm_choices,
     benchmark_dataset,
     compare_file,
 )
@@ -28,7 +29,7 @@ def parse_args(argv=None):
     compare_parser.add_argument(
         "--algorithms",
         nargs="+",
-        choices=list(ALGORITHM_DISPLAY.keys()),
+        choices=algorithm_choices(),
         default=list(ALGORITHM_DISPLAY.keys()),
         help="Algorithms to execute.",
     )
@@ -51,7 +52,7 @@ def parse_args(argv=None):
     benchmark_parser.add_argument(
         "--algorithms",
         nargs="+",
-        choices=list(ALGORITHM_DISPLAY.keys()),
+        choices=algorithm_choices(),
         default=list(ALGORITHM_DISPLAY.keys()),
         help="Algorithms to execute.",
     )

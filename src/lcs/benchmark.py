@@ -1,31 +1,37 @@
 import csv
 from pathlib import Path
+from time import perf_counter
 import re
 
 from .algorithms import BFRecursiveLCS, BruteForceLCS, DynamicLCS
 from .datasets import read_pair, resolve_path, to_repo_relative
-from .models import RunResult
+from .models import TimedRunResult
 
 
 DEFAULT_FILE = Path("data/database2/Strings02.txt")
 DEFAULT_DATASET = Path("data/database2")
 ALGORITHM_DISPLAY = {
-    "dynamic": "Dynamic programming",
-    "bruteforce": "Brute force",
-    "recursive": "Recursive brute force",
+    "dynamic_programming": "Dynamic programming",
+    "brute_force": "Brute force",
+    "recursive_brute_force": "Recursive brute force",
 }
 ALGORITHM_LIMITS = {
-    "dynamic": None,
-    "bruteforce": 18,
-    "recursive": 12,
+    "dynamic_programming": None,
+    "brute_force": 18,
+    "recursive_brute_force": 12,
+}
+ALGORITHM_ALIASES = {
+    "dynamic": "dynamic_programming",
+    "bruteforce": "brute_force",
+    "recursive": "recursive_brute_force",
 }
 
 
 def build_algorithms():
     return {
-        "dynamic": DynamicLCS,
-        "bruteforce": BruteForceLCS,
-        "recursive": BFRecursiveLCS,
+        "dynamic_programming": DynamicLCS,
+        "brute_force": BruteForceLCS,
+        "recursive_brute_force": BFRecursiveLCS,
     }
 
 
@@ -46,39 +52,61 @@ def load_sequences(file_path):
     return read_pair(file_path)
 
 
+def algorithm_choices():
+    return list(ALGORITHM_DISPLAY.keys()) + list(ALGORITHM_ALIASES.keys())
+
+
+def normalize_algorithm_name(name):
+    if name in ALGORITHM_DISPLAY:
+        return name
+
+    if name in ALGORITHM_ALIASES:
+        return ALGORITHM_ALIASES[name]
+
+    raise ValueError(f"Unknown algorithm '{name}'.")
+
+
+def normalize_algorithm_names(names):
+    normalized_names = []
+
+    for name in names:
+        normalized_name = normalize_algorithm_name(name)
+        if normalized_name not in normalized_names:
+            normalized_names.append(normalized_name)
+
+    return normalized_names
+
+
 def run_algorithm(name, string_a, string_b, allow_slow):
-    limit = ALGORITHM_LIMITS[name]
+    normalized_name = normalize_algorithm_name(name)
+    limit = ALGORITHM_LIMITS[normalized_name]
     input_size = max(len(string_a), len(string_b))
 
     if limit is not None and input_size > limit and not allow_slow:
-        return RunResult(
-            algorithm=name,
-            length=0,
+        return TimedRunResult(
+            algorithm=normalized_name,
             elapsed_seconds=0.0,
-            comparisons=0,
-            subsequence="",
             status="skipped",
             message=f"Skipped because input length {input_size} exceeds the safe limit {limit}.",
         )
 
-    algorithm = build_algorithms()[name]()
-    length, elapsed_seconds, comparisons, subsequence = algorithm.lcs(
-        string_a, string_b
-    )
+    algorithm = build_algorithms()[normalized_name]()
+    start = perf_counter()
+    lcs_result = algorithm.solve(string_a, string_b)
+    elapsed_seconds = perf_counter() - start
 
-    return RunResult(
-        algorithm=name,
-        length=length,
+    return TimedRunResult(
+        algorithm=normalized_name,
         elapsed_seconds=elapsed_seconds,
-        comparisons=comparisons,
-        subsequence=subsequence,
+        lcs_result=lcs_result,
     )
 
 
 def compare_file(file_path, algorithm_names, allow_slow):
     string_a, string_b = load_sequences(file_path)
+    normalized_names = normalize_algorithm_names(algorithm_names)
     results = [
-        run_algorithm(name, string_a, string_b, allow_slow) for name in algorithm_names
+        run_algorithm(name, string_a, string_b, allow_slow) for name in normalized_names
     ]
 
     print(f"File: {to_repo_relative(resolve_path(file_path))}")
@@ -100,16 +128,17 @@ def benchmark_dataset(dataset_path, algorithm_names, allow_slow, output_csv):
     if not files:
         raise FileNotFoundError(f"No .txt files found in '{to_repo_relative(dataset)}'.")
 
+    normalized_names = normalize_algorithm_names(algorithm_names)
     benchmark_rows = []
 
     for file_path in files:
         string_a, string_b = load_sequences(file_path)
-        for name in algorithm_names:
+        for name in normalized_names:
             result = run_algorithm(name, string_a, string_b, allow_slow)
             benchmark_rows.append(
                 {
                     "file": to_repo_relative(file_path),
-                    "algorithm": name,
+                    "algorithm": result.algorithm,
                     "len_a": len(string_a),
                     "len_b": len(string_b),
                     "lcs_length": result.length,

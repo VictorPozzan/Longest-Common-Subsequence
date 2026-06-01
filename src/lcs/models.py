@@ -2,11 +2,39 @@ from dataclasses import dataclass
 
 
 @dataclass
-class RunResult:
+class LCSResult:
     algorithm: str
-    length: int
-    elapsed_seconds: float
+    input_a: str
+    input_b: str
+    input_size_a: int
+    input_size_b: int
+    lcs: str
+    lcs_length: int
     comparisons: int
-    subsequence: str
+
+
+@dataclass
+class TimedRunResult:
+    algorithm: str
+    elapsed_seconds: float
+    lcs_result: LCSResult | None = None
     status: str = "ok"
     message: str = ""
+
+    @property
+    def comparisons(self):
+        if self.lcs_result is None:
+            return 0
+        return self.lcs_result.comparisons
+
+    @property
+    def length(self):
+        if self.lcs_result is None:
+            return 0
+        return self.lcs_result.lcs_length
+
+    @property
+    def subsequence(self):
+        if self.lcs_result is None:
+            return ""
+        return self.lcs_result.lcs

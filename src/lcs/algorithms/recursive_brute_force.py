@@ -1,17 +1,29 @@
-from time import perf_counter
+from lcs.models import LCSResult
 
 
 class BFRecursiveLCS:
+    algorithm_name = "recursive_brute_force"
+
     def __init__(self):
         self.comp = 0
 
-    def lcs(self, string_a, string_b):
+    def solve(self, string_a, string_b):
         self.comp = 0
-        start = perf_counter()
         subsequence = self.lcs_recursive(string_a, string_b)
-        execution_time = perf_counter() - start
 
-        return len(subsequence), execution_time, self.comp, subsequence
+        return LCSResult(
+            algorithm=self.algorithm_name,
+            input_a=string_a,
+            input_b=string_b,
+            input_size_a=len(string_a),
+            input_size_b=len(string_b),
+            lcs=subsequence,
+            lcs_length=len(subsequence),
+            comparisons=self.comp,
+        )
+
+    def lcs(self, string_a, string_b):
+        return self.solve(string_a, string_b)
 
     def lcs_recursive(self, string_a, string_b):
         self.comp += 1
