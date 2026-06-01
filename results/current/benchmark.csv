@@ -1,0 +1,610 @@
+run_id,run_index,is_warmup,algorithm,dataset,input_name,input_size_a,input_size_b,lcs_length,execution_time_seconds,comparisons,status,error,timestamp
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings02.txt,2,2,1,0.000009777,4,completed,,2026-06-01T19:24:45.259255+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings02.txt,2,2,1,0.000010770,4,completed,,2026-06-01T19:24:45.304218+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings02.txt,2,2,1,0.000011052,4,completed,,2026-06-01T19:24:45.347171+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings02.txt,2,2,1,0.000010542,4,completed,,2026-06-01T19:24:45.390786+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings02.txt,2,2,1,0.000015708,4,completed,,2026-06-01T19:24:45.436753+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings02.txt,2,2,1,0.000009609,4,completed,,2026-06-01T19:24:45.478559+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings02.txt,2,2,1,0.000009606,4,completed,,2026-06-01T19:24:45.524698+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings02.txt,2,2,1,0.000037130,3,completed,,2026-06-01T19:24:45.580591+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings02.txt,2,2,1,0.000016443,3,completed,,2026-06-01T19:24:45.642170+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings02.txt,2,2,1,0.000013176,3,completed,,2026-06-01T19:24:45.690465+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings02.txt,2,2,1,0.000014424,3,completed,,2026-06-01T19:24:45.739273+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings02.txt,2,2,1,0.000013839,3,completed,,2026-06-01T19:24:45.785214+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings02.txt,2,2,1,0.000018188,3,completed,,2026-06-01T19:24:45.836871+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings02.txt,2,2,1,0.000011511,3,completed,,2026-06-01T19:24:45.898363+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings02.txt,2,2,1,0.000011781,7,completed,,2026-06-01T19:24:45.950993+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings02.txt,2,2,1,0.000010862,7,completed,,2026-06-01T19:24:46.002006+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings02.txt,2,2,1,0.000008032,7,completed,,2026-06-01T19:24:46.055660+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings02.txt,2,2,1,0.000009173,7,completed,,2026-06-01T19:24:46.120242+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings02.txt,2,2,1,0.000008086,7,completed,,2026-06-01T19:24:46.185332+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings02.txt,2,2,1,0.000011731,7,completed,,2026-06-01T19:24:46.269057+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings02.txt,2,2,1,0.000007862,7,completed,,2026-06-01T19:24:46.343095+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings03.txt,3,3,1,0.000026877,9,completed,,2026-06-01T19:24:46.421566+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings03.txt,3,3,1,0.000015320,9,completed,,2026-06-01T19:24:46.495500+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings03.txt,3,3,1,0.000020873,9,completed,,2026-06-01T19:24:46.567786+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings03.txt,3,3,1,0.000012515,9,completed,,2026-06-01T19:24:46.656773+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings03.txt,3,3,1,0.000018102,9,completed,,2026-06-01T19:24:46.734488+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings03.txt,3,3,1,0.000013932,9,completed,,2026-06-01T19:24:46.817415+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings03.txt,3,3,1,0.000012536,9,completed,,2026-06-01T19:24:46.876403+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings03.txt,3,3,1,0.000018853,14,completed,,2026-06-01T19:24:46.928679+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings03.txt,3,3,1,0.000014584,14,completed,,2026-06-01T19:24:46.979283+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings03.txt,3,3,1,0.000016958,14,completed,,2026-06-01T19:24:47.043616+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings03.txt,3,3,1,0.000015269,14,completed,,2026-06-01T19:24:47.095091+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings03.txt,3,3,1,0.000016828,14,completed,,2026-06-01T19:24:47.143461+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings03.txt,3,3,1,0.000017865,14,completed,,2026-06-01T19:24:47.203247+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings03.txt,3,3,1,0.000016075,14,completed,,2026-06-01T19:24:47.273843+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings03.txt,3,3,1,0.000015774,17,completed,,2026-06-01T19:24:47.342116+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings03.txt,3,3,1,0.000010901,17,completed,,2026-06-01T19:24:47.449555+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings03.txt,3,3,1,0.000011184,17,completed,,2026-06-01T19:24:47.511326+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings03.txt,3,3,1,0.000010501,17,completed,,2026-06-01T19:24:47.590787+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings03.txt,3,3,1,0.000009169,17,completed,,2026-06-01T19:24:47.671684+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings03.txt,3,3,1,0.000011119,17,completed,,2026-06-01T19:24:47.740040+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings03.txt,3,3,1,0.000010019,17,completed,,2026-06-01T19:24:47.787094+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings04.txt,4,4,2,0.000014340,16,completed,,2026-06-01T19:24:47.835518+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings04.txt,4,4,2,0.000023969,16,completed,,2026-06-01T19:24:47.885818+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings04.txt,4,4,2,0.000014382,16,completed,,2026-06-01T19:24:47.943266+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings04.txt,4,4,2,0.000013476,16,completed,,2026-06-01T19:24:47.991033+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings04.txt,4,4,2,0.000014722,16,completed,,2026-06-01T19:24:48.038379+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings04.txt,4,4,2,0.000014781,16,completed,,2026-06-01T19:24:48.091641+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings04.txt,4,4,2,0.000013471,16,completed,,2026-06-01T19:24:48.137826+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings04.txt,4,4,2,0.000017475,36,completed,,2026-06-01T19:24:48.183230+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings04.txt,4,4,2,0.000022022,36,completed,,2026-06-01T19:24:48.266410+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings04.txt,4,4,2,0.000028930,36,completed,,2026-06-01T19:24:48.341737+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings04.txt,4,4,2,0.000024529,36,completed,,2026-06-01T19:24:48.406115+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings04.txt,4,4,2,0.000028219,36,completed,,2026-06-01T19:24:48.463090+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings04.txt,4,4,2,0.000020328,36,completed,,2026-06-01T19:24:48.518876+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings04.txt,4,4,2,0.000018543,36,completed,,2026-06-01T19:24:48.569013+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings04.txt,4,4,2,0.000024932,49,completed,,2026-06-01T19:24:48.635924+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings04.txt,4,4,2,0.000014250,49,completed,,2026-06-01T19:24:48.688315+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings04.txt,4,4,2,0.000013683,49,completed,,2026-06-01T19:24:48.738204+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings04.txt,4,4,2,0.000013487,49,completed,,2026-06-01T19:24:48.784900+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings04.txt,4,4,2,0.000012375,49,completed,,2026-06-01T19:24:48.837742+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings04.txt,4,4,2,0.000014163,49,completed,,2026-06-01T19:24:48.881904+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings04.txt,4,4,2,0.000014180,49,completed,,2026-06-01T19:24:48.935767+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings05.txt,5,5,3,0.000017297,25,completed,,2026-06-01T19:24:48.980647+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings05.txt,5,5,3,0.000020340,25,completed,,2026-06-01T19:24:49.028618+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings05.txt,5,5,3,0.000014318,25,completed,,2026-06-01T19:24:49.073157+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings05.txt,5,5,3,0.000015334,25,completed,,2026-06-01T19:24:49.119129+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings05.txt,5,5,3,0.000016924,25,completed,,2026-06-01T19:24:49.161815+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings05.txt,5,5,3,0.000016889,25,completed,,2026-06-01T19:24:49.230608+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings05.txt,5,5,3,0.000016937,25,completed,,2026-06-01T19:24:49.285645+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings05.txt,5,5,3,0.000020627,53,completed,,2026-06-01T19:24:49.338687+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings05.txt,5,5,3,0.000030934,53,completed,,2026-06-01T19:24:49.397040+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings05.txt,5,5,3,0.000020285,53,completed,,2026-06-01T19:24:49.447891+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings05.txt,5,5,3,0.000018936,53,completed,,2026-06-01T19:24:49.491509+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings05.txt,5,5,3,0.000019091,53,completed,,2026-06-01T19:24:49.538176+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings05.txt,5,5,3,0.000018773,53,completed,,2026-06-01T19:24:49.586431+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings05.txt,5,5,3,0.000019799,53,completed,,2026-06-01T19:24:49.632389+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings05.txt,5,5,3,0.000020688,113,completed,,2026-06-01T19:24:49.693429+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings05.txt,5,5,3,0.000020584,113,completed,,2026-06-01T19:24:49.746659+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings05.txt,5,5,3,0.000020265,113,completed,,2026-06-01T19:24:49.792709+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings05.txt,5,5,3,0.000020884,113,completed,,2026-06-01T19:24:49.841140+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings05.txt,5,5,3,0.000021066,113,completed,,2026-06-01T19:24:49.891423+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings05.txt,5,5,3,0.000018640,113,completed,,2026-06-01T19:24:49.936198+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings05.txt,5,5,3,0.000020348,113,completed,,2026-06-01T19:24:49.985125+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings06.txt,6,6,3,0.000017174,36,completed,,2026-06-01T19:24:50.037610+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings06.txt,6,6,3,0.000016693,36,completed,,2026-06-01T19:24:50.082384+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings06.txt,6,6,3,0.000016698,36,completed,,2026-06-01T19:24:50.128379+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings06.txt,6,6,3,0.000017691,36,completed,,2026-06-01T19:24:50.171956+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings06.txt,6,6,3,0.000015836,36,completed,,2026-06-01T19:24:50.216185+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings06.txt,6,6,3,0.000028587,36,completed,,2026-06-01T19:24:50.271053+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings06.txt,6,6,3,0.000018823,36,completed,,2026-06-01T19:24:50.345189+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings06.txt,6,6,3,0.000031253,173,completed,,2026-06-01T19:24:50.393225+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings06.txt,6,6,3,0.000032591,173,completed,,2026-06-01T19:24:50.439780+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings06.txt,6,6,3,0.000032875,173,completed,,2026-06-01T19:24:50.487079+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings06.txt,6,6,3,0.000050904,173,completed,,2026-06-01T19:24:50.539936+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings06.txt,6,6,3,0.000031885,173,completed,,2026-06-01T19:24:50.584014+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings06.txt,6,6,3,0.000029217,173,completed,,2026-06-01T19:24:50.631424+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings06.txt,6,6,3,0.000031077,173,completed,,2026-06-01T19:24:50.678595+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings06.txt,6,6,3,0.000048442,434,completed,,2026-06-01T19:24:50.722037+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings06.txt,6,6,3,0.000051843,434,completed,,2026-06-01T19:24:50.770556+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings06.txt,6,6,3,0.000068211,434,completed,,2026-06-01T19:24:50.813582+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings06.txt,6,6,3,0.000048387,434,completed,,2026-06-01T19:24:50.855723+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings06.txt,6,6,3,0.000050651,434,completed,,2026-06-01T19:24:50.898209+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings06.txt,6,6,3,0.000049314,434,completed,,2026-06-01T19:24:50.943197+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings06.txt,6,6,3,0.000052558,434,completed,,2026-06-01T19:24:50.989411+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings07.txt,7,7,4,0.000019992,49,completed,,2026-06-01T19:24:51.035393+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings07.txt,7,7,4,0.000144111,49,completed,,2026-06-01T19:24:51.083434+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings07.txt,7,7,4,0.000017989,49,completed,,2026-06-01T19:24:51.132051+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings07.txt,7,7,4,0.000017541,49,completed,,2026-06-01T19:24:51.176519+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings07.txt,7,7,4,0.000020291,49,completed,,2026-06-01T19:24:51.223850+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings07.txt,7,7,4,0.000017665,49,completed,,2026-06-01T19:24:51.282510+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings07.txt,7,7,4,0.000018802,49,completed,,2026-06-01T19:24:51.329581+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings07.txt,7,7,4,0.000046444,300,completed,,2026-06-01T19:24:51.375240+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings07.txt,7,7,4,0.000096977,300,completed,,2026-06-01T19:24:51.423850+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings07.txt,7,7,4,0.000041879,300,completed,,2026-06-01T19:24:51.477816+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings07.txt,7,7,4,0.000096282,300,completed,,2026-06-01T19:24:51.523340+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings07.txt,7,7,4,0.000041437,300,completed,,2026-06-01T19:24:51.570219+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings07.txt,7,7,4,0.000044487,300,completed,,2026-06-01T19:24:51.613670+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings07.txt,7,7,4,0.000044848,300,completed,,2026-06-01T19:24:51.656862+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings07.txt,7,7,4,0.000057713,517,completed,,2026-06-01T19:24:51.700330+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings07.txt,7,7,4,0.000057892,517,completed,,2026-06-01T19:24:51.743726+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings07.txt,7,7,4,0.000058508,517,completed,,2026-06-01T19:24:51.786795+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings07.txt,7,7,4,0.000059095,517,completed,,2026-06-01T19:24:51.832649+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings07.txt,7,7,4,0.000060655,517,completed,,2026-06-01T19:24:51.882009+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings07.txt,7,7,4,0.000200999,517,completed,,2026-06-01T19:24:51.925476+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings07.txt,7,7,4,0.000056288,517,completed,,2026-06-01T19:24:51.970415+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings08.txt,8,8,3,0.000020545,64,completed,,2026-06-01T19:24:52.015661+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings08.txt,8,8,3,0.000020652,64,completed,,2026-06-01T19:24:52.063051+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings08.txt,8,8,3,0.000020229,64,completed,,2026-06-01T19:24:52.109432+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings08.txt,8,8,3,0.000019292,64,completed,,2026-06-01T19:24:52.152828+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings08.txt,8,8,3,0.000019059,64,completed,,2026-06-01T19:24:52.193304+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings08.txt,8,8,3,0.000020191,64,completed,,2026-06-01T19:24:52.242864+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings08.txt,8,8,3,0.000019278,64,completed,,2026-06-01T19:24:52.285945+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings08.txt,8,8,3,0.000145233,1631,completed,,2026-06-01T19:24:52.328434+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings08.txt,8,8,3,0.000149719,1631,completed,,2026-06-01T19:24:52.375642+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings08.txt,8,8,3,0.000144457,1631,completed,,2026-06-01T19:24:52.421295+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings08.txt,8,8,3,0.000147608,1631,completed,,2026-06-01T19:24:52.467894+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings08.txt,8,8,3,0.000160511,1631,completed,,2026-06-01T19:24:52.511926+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings08.txt,8,8,3,0.000163286,1631,completed,,2026-06-01T19:24:52.555107+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings08.txt,8,8,3,0.000144709,1631,completed,,2026-06-01T19:24:52.597509+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings08.txt,8,8,3,0.000215336,2405,completed,,2026-06-01T19:24:52.648959+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings08.txt,8,8,3,0.000254095,2405,completed,,2026-06-01T19:24:52.690713+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings08.txt,8,8,3,0.000222674,2405,completed,,2026-06-01T19:24:52.735799+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings08.txt,8,8,3,0.000214388,2405,completed,,2026-06-01T19:24:52.781159+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings08.txt,8,8,3,0.000219077,2405,completed,,2026-06-01T19:24:52.826696+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings08.txt,8,8,3,0.000210236,2405,completed,,2026-06-01T19:24:52.873532+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings08.txt,8,8,3,0.000213601,2405,completed,,2026-06-01T19:24:52.917856+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings09.txt,9,9,3,0.000025398,81,completed,,2026-06-01T19:24:52.964011+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings09.txt,9,9,3,0.000022276,81,completed,,2026-06-01T19:24:53.009483+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings09.txt,9,9,3,0.000023032,81,completed,,2026-06-01T19:24:53.055764+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings09.txt,9,9,3,0.000023832,81,completed,,2026-06-01T19:24:53.109147+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings09.txt,9,9,3,0.000023343,81,completed,,2026-06-01T19:24:53.157833+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings09.txt,9,9,3,0.000036156,81,completed,,2026-06-01T19:24:53.237628+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings09.txt,9,9,3,0.000026616,81,completed,,2026-06-01T19:24:53.298529+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings09.txt,9,9,3,0.000345161,4157,completed,,2026-06-01T19:24:53.350384+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings09.txt,9,9,3,0.000755352,4157,completed,,2026-06-01T19:24:53.414186+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings09.txt,9,9,3,0.000559932,4157,completed,,2026-06-01T19:24:53.489183+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings09.txt,9,9,3,0.000333110,4157,completed,,2026-06-01T19:24:53.542271+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings09.txt,9,9,3,0.000382097,4157,completed,,2026-06-01T19:24:53.591587+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings09.txt,9,9,3,0.000323995,4157,completed,,2026-06-01T19:24:53.636965+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings09.txt,9,9,3,0.000378533,4157,completed,,2026-06-01T19:24:53.681520+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings09.txt,9,9,3,0.004072643,36678,completed,,2026-06-01T19:24:53.732040+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings09.txt,9,9,3,0.003407715,36678,completed,,2026-06-01T19:24:53.782685+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings09.txt,9,9,3,0.003649282,36678,completed,,2026-06-01T19:24:53.831973+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings09.txt,9,9,3,0.003718022,36678,completed,,2026-06-01T19:24:53.881343+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings09.txt,9,9,3,0.003210792,36678,completed,,2026-06-01T19:24:53.929852+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings09.txt,9,9,3,0.004784549,36678,completed,,2026-06-01T19:24:53.994845+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings09.txt,9,9,3,0.005037649,36678,completed,,2026-06-01T19:24:54.082271+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings10.txt,10,10,3,0.000046222,100,completed,,2026-06-01T19:24:54.161997+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings10.txt,10,10,3,0.000046418,100,completed,,2026-06-01T19:24:54.252269+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings10.txt,10,10,3,0.000027556,100,completed,,2026-06-01T19:24:54.366432+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings10.txt,10,10,3,0.000026014,100,completed,,2026-06-01T19:24:54.411249+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings10.txt,10,10,3,0.000026285,100,completed,,2026-06-01T19:24:54.459474+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings10.txt,10,10,3,0.000027039,100,completed,,2026-06-01T19:24:54.504233+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings10.txt,10,10,3,0.000025765,100,completed,,2026-06-01T19:24:54.553615+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings10.txt,10,10,3,0.000748634,8498,completed,,2026-06-01T19:24:54.599491+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings10.txt,10,10,3,0.000740249,8498,completed,,2026-06-01T19:24:54.646728+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings10.txt,10,10,3,0.000745727,8498,completed,,2026-06-01T19:24:54.703481+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings10.txt,10,10,3,0.000790932,8498,completed,,2026-06-01T19:24:54.773733+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings10.txt,10,10,3,0.001309986,8498,completed,,2026-06-01T19:24:54.840298+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings10.txt,10,10,3,0.000729377,8498,completed,,2026-06-01T19:24:54.896380+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings10.txt,10,10,3,0.000752238,8498,completed,,2026-06-01T19:24:54.958208+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings10.txt,10,10,3,0.015066248,142400,completed,,2026-06-01T19:24:55.021778+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings10.txt,10,10,3,0.014586308,142400,completed,,2026-06-01T19:24:55.087834+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings10.txt,10,10,3,0.021629041,142400,completed,,2026-06-01T19:24:55.168339+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings10.txt,10,10,3,0.014045253,142400,completed,,2026-06-01T19:24:55.234461+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings10.txt,10,10,3,0.017387443,142400,completed,,2026-06-01T19:24:55.318694+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings10.txt,10,10,3,0.016900142,142400,completed,,2026-06-01T19:24:55.402464+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings10.txt,10,10,3,0.019190735,142400,completed,,2026-06-01T19:24:55.485174+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings11.txt,11,11,3,0.000029000,121,completed,,2026-06-01T19:24:55.540506+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings11.txt,11,11,3,0.000050958,121,completed,,2026-06-01T19:24:55.592711+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings11.txt,11,11,3,0.000057880,121,completed,,2026-06-01T19:24:55.657569+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings11.txt,11,11,3,0.000061991,121,completed,,2026-06-01T19:24:55.711040+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings11.txt,11,11,3,0.000031407,121,completed,,2026-06-01T19:24:55.770097+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings11.txt,11,11,3,0.000034814,121,completed,,2026-06-01T19:24:55.862170+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings11.txt,11,11,3,0.000062791,121,completed,,2026-06-01T19:24:55.933034+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings11.txt,11,11,3,0.004028554,20724,completed,,2026-06-01T19:24:56.013475+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings11.txt,11,11,3,0.001471885,20724,completed,,2026-06-01T19:24:56.095724+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings11.txt,11,11,3,0.002500860,20724,completed,,2026-06-01T19:24:56.148118+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings11.txt,11,11,3,0.002698686,20724,completed,,2026-06-01T19:24:56.208738+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings11.txt,11,11,3,0.002579650,20724,completed,,2026-06-01T19:24:56.264902+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings11.txt,11,11,3,0.002996587,20724,completed,,2026-06-01T19:24:56.394540+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings11.txt,11,11,3,0.001639784,20724,completed,,2026-06-01T19:24:56.481975+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings11.txt,11,11,3,0.018446469,151934,completed,,2026-06-01T19:24:56.560025+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings11.txt,11,11,3,0.024788066,151934,completed,,2026-06-01T19:24:56.659080+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings11.txt,11,11,3,0.023050869,151934,completed,,2026-06-01T19:24:56.740078+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings11.txt,11,11,3,0.014296850,151934,completed,,2026-06-01T19:24:56.800700+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings11.txt,11,11,3,0.013571971,151934,completed,,2026-06-01T19:24:56.859575+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings11.txt,11,11,3,0.022954215,151934,completed,,2026-06-01T19:24:56.950300+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings11.txt,11,11,3,0.018571071,151934,completed,,2026-06-01T19:24:57.026261+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings12.txt,12,12,2,0.000039359,144,completed,,2026-06-01T19:24:57.083903+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings12.txt,12,12,2,0.000086547,144,completed,,2026-06-01T19:24:57.137093+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings12.txt,12,12,2,0.000034128,144,completed,,2026-06-01T19:24:57.182330+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings12.txt,12,12,2,0.000036078,144,completed,,2026-06-01T19:24:57.228032+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings12.txt,12,12,2,0.000033656,144,completed,,2026-06-01T19:24:57.277107+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings12.txt,12,12,2,0.000038566,144,completed,,2026-06-01T19:24:57.325856+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings12.txt,12,12,2,0.000037625,144,completed,,2026-06-01T19:24:57.375786+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings12.txt,12,12,2,0.003564780,48216,completed,,2026-06-01T19:24:57.426460+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings12.txt,12,12,2,0.003499490,48216,completed,,2026-06-01T19:24:57.476218+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings12.txt,12,12,2,0.003463517,48216,completed,,2026-06-01T19:24:57.524591+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings12.txt,12,12,2,0.004161138,48216,completed,,2026-06-01T19:24:57.571168+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings12.txt,12,12,2,0.003968274,48216,completed,,2026-06-01T19:24:57.625028+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings12.txt,12,12,2,0.003437575,48216,completed,,2026-06-01T19:24:57.675300+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings12.txt,12,12,2,0.003568291,48216,completed,,2026-06-01T19:24:57.722402+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings12.txt,12,12,2,0.166626484,1894889,completed,,2026-06-01T19:24:57.933894+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings12.txt,12,12,2,0.166076045,1894889,completed,,2026-06-01T19:24:58.145795+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings12.txt,12,12,2,0.164821416,1894889,completed,,2026-06-01T19:24:58.355216+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings12.txt,12,12,2,0.175991615,1894889,completed,,2026-06-01T19:24:58.574315+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings12.txt,12,12,2,0.172158910,1894889,completed,,2026-06-01T19:24:58.791047+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings12.txt,12,12,2,0.185706266,1894889,completed,,2026-06-01T19:24:59.023846+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings12.txt,12,12,2,0.177255459,1894889,completed,,2026-06-01T19:24:59.251565+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings13.txt,13,13,5,0.000043048,169,completed,,2026-06-01T19:24:59.307340+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings13.txt,13,13,5,0.000037404,169,completed,,2026-06-01T19:24:59.351952+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings13.txt,13,13,5,0.000039982,169,completed,,2026-06-01T19:24:59.399431+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings13.txt,13,13,5,0.000114380,169,completed,,2026-06-01T19:24:59.447041+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings13.txt,13,13,5,0.000039456,169,completed,,2026-06-01T19:24:59.496345+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings13.txt,13,13,5,0.000036754,169,completed,,2026-06-01T19:24:59.541535+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings13.txt,13,13,5,0.000039783,169,completed,,2026-06-01T19:24:59.589137+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings13.txt,13,13,5,0.006246116,90870,completed,,2026-06-01T19:24:59.644298+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings13.txt,13,13,5,0.006140848,90870,completed,,2026-06-01T19:24:59.695643+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings13.txt,13,13,5,0.006397679,90870,completed,,2026-06-01T19:24:59.747516+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings13.txt,13,13,5,0.006641347,90870,completed,,2026-06-01T19:24:59.797063+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings13.txt,13,13,5,0.006255549,90870,completed,,2026-06-01T19:24:59.847860+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings13.txt,13,13,5,0.008535308,90870,completed,,2026-06-01T19:24:59.905639+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings13.txt,13,13,5,0.015252132,90870,completed,,2026-06-01T19:25:00.011109+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings13.txt,13,13,,,,skipped_by_safety_limit,Skipped because input length 13 exceeds the safe limit 12.,2026-06-01T19:25:00.011142+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings13.txt,13,13,,,,skipped_by_safety_limit,Skipped because input length 13 exceeds the safe limit 12.,2026-06-01T19:25:00.011147+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings13.txt,13,13,,,,skipped_by_safety_limit,Skipped because input length 13 exceeds the safe limit 12.,2026-06-01T19:25:00.011151+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings13.txt,13,13,,,,skipped_by_safety_limit,Skipped because input length 13 exceeds the safe limit 12.,2026-06-01T19:25:00.011155+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings13.txt,13,13,,,,skipped_by_safety_limit,Skipped because input length 13 exceeds the safe limit 12.,2026-06-01T19:25:00.011159+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings13.txt,13,13,,,,skipped_by_safety_limit,Skipped because input length 13 exceeds the safe limit 12.,2026-06-01T19:25:00.011162+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings13.txt,13,13,,,,skipped_by_safety_limit,Skipped because input length 13 exceeds the safe limit 12.,2026-06-01T19:25:00.011165+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings14.txt,14,14,7,0.000060762,196,completed,,2026-06-01T19:25:00.064583+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings14.txt,14,14,7,0.000055716,196,completed,,2026-06-01T19:25:00.112986+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings14.txt,14,14,7,0.000061105,196,completed,,2026-06-01T19:25:00.162391+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings14.txt,14,14,7,0.000036741,196,completed,,2026-06-01T19:25:00.208468+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings14.txt,14,14,7,0.000037046,196,completed,,2026-06-01T19:25:00.253406+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings14.txt,14,14,7,0.000037755,196,completed,,2026-06-01T19:25:00.297494+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings14.txt,14,14,7,0.000038306,196,completed,,2026-06-01T19:25:00.340116+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings14.txt,14,14,7,0.007866520,98630,completed,,2026-06-01T19:25:00.391655+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings14.txt,14,14,7,0.007658497,98630,completed,,2026-06-01T19:25:00.441396+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings14.txt,14,14,7,0.007310883,98630,completed,,2026-06-01T19:25:00.493283+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings14.txt,14,14,7,0.007234030,98630,completed,,2026-06-01T19:25:00.552283+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings14.txt,14,14,7,0.008656680,98630,completed,,2026-06-01T19:25:00.618767+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings14.txt,14,14,7,0.007703141,98630,completed,,2026-06-01T19:25:00.673981+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings14.txt,14,14,7,0.010134030,98630,completed,,2026-06-01T19:25:00.729880+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings14.txt,14,14,,,,skipped_by_safety_limit,Skipped because input length 14 exceeds the safe limit 12.,2026-06-01T19:25:00.729909+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings14.txt,14,14,,,,skipped_by_safety_limit,Skipped because input length 14 exceeds the safe limit 12.,2026-06-01T19:25:00.729915+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings14.txt,14,14,,,,skipped_by_safety_limit,Skipped because input length 14 exceeds the safe limit 12.,2026-06-01T19:25:00.729920+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings14.txt,14,14,,,,skipped_by_safety_limit,Skipped because input length 14 exceeds the safe limit 12.,2026-06-01T19:25:00.729925+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings14.txt,14,14,,,,skipped_by_safety_limit,Skipped because input length 14 exceeds the safe limit 12.,2026-06-01T19:25:00.729929+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings14.txt,14,14,,,,skipped_by_safety_limit,Skipped because input length 14 exceeds the safe limit 12.,2026-06-01T19:25:00.729933+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings14.txt,14,14,,,,skipped_by_safety_limit,Skipped because input length 14 exceeds the safe limit 12.,2026-06-01T19:25:00.729951+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings15.txt,15,15,4,0.000042414,225,completed,,2026-06-01T19:25:00.781034+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings15.txt,15,15,4,0.000043598,225,completed,,2026-06-01T19:25:00.832249+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings15.txt,15,15,4,0.000041011,225,completed,,2026-06-01T19:25:00.880425+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings15.txt,15,15,4,0.000046222,225,completed,,2026-06-01T19:25:00.927233+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings15.txt,15,15,4,0.000040645,225,completed,,2026-06-01T19:25:00.977841+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings15.txt,15,15,4,0.000042110,225,completed,,2026-06-01T19:25:01.029712+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings15.txt,15,15,4,0.000043472,225,completed,,2026-06-01T19:25:01.089196+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings15.txt,15,15,4,0.034287169,469935,completed,,2026-06-01T19:25:01.174603+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings15.txt,15,15,4,0.038927028,469935,completed,,2026-06-01T19:25:01.261275+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings15.txt,15,15,4,0.032858692,469935,completed,,2026-06-01T19:25:01.347531+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings15.txt,15,15,4,0.031989315,469935,completed,,2026-06-01T19:25:01.428228+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings15.txt,15,15,4,0.032926380,469935,completed,,2026-06-01T19:25:01.505877+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings15.txt,15,15,4,0.032512452,469935,completed,,2026-06-01T19:25:01.583719+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings15.txt,15,15,4,0.031040201,469935,completed,,2026-06-01T19:25:01.658797+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings15.txt,15,15,,,,skipped_by_safety_limit,Skipped because input length 15 exceeds the safe limit 12.,2026-06-01T19:25:01.658819+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings15.txt,15,15,,,,skipped_by_safety_limit,Skipped because input length 15 exceeds the safe limit 12.,2026-06-01T19:25:01.658822+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings15.txt,15,15,,,,skipped_by_safety_limit,Skipped because input length 15 exceeds the safe limit 12.,2026-06-01T19:25:01.658824+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings15.txt,15,15,,,,skipped_by_safety_limit,Skipped because input length 15 exceeds the safe limit 12.,2026-06-01T19:25:01.658825+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings15.txt,15,15,,,,skipped_by_safety_limit,Skipped because input length 15 exceeds the safe limit 12.,2026-06-01T19:25:01.658827+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings15.txt,15,15,,,,skipped_by_safety_limit,Skipped because input length 15 exceeds the safe limit 12.,2026-06-01T19:25:01.658837+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings15.txt,15,15,,,,skipped_by_safety_limit,Skipped because input length 15 exceeds the safe limit 12.,2026-06-01T19:25:01.658839+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings16.txt,16,16,4,0.000057327,256,completed,,2026-06-01T19:25:01.704506+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings16.txt,16,16,4,0.000048699,256,completed,,2026-06-01T19:25:01.750497+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings16.txt,16,16,4,0.000094879,256,completed,,2026-06-01T19:25:01.798289+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings16.txt,16,16,4,0.000056961,256,completed,,2026-06-01T19:25:01.848502+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings16.txt,16,16,4,0.000047794,256,completed,,2026-06-01T19:25:01.896220+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings16.txt,16,16,4,0.000046747,256,completed,,2026-06-01T19:25:01.942963+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings16.txt,16,16,4,0.000048150,256,completed,,2026-06-01T19:25:01.988430+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings16.txt,16,16,4,0.071763258,1010176,completed,,2026-06-01T19:25:02.107090+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings16.txt,16,16,4,0.068139479,1010176,completed,,2026-06-01T19:25:02.218032+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings16.txt,16,16,4,0.068116984,1010176,completed,,2026-06-01T19:25:02.335074+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings16.txt,16,16,4,0.068933862,1010176,completed,,2026-06-01T19:25:02.455339+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings16.txt,16,16,4,0.071257123,1010176,completed,,2026-06-01T19:25:02.575292+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings16.txt,16,16,4,0.082089021,1010176,completed,,2026-06-01T19:25:02.710320+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings16.txt,16,16,4,0.067581050,1010176,completed,,2026-06-01T19:25:02.822150+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings16.txt,16,16,,,,skipped_by_safety_limit,Skipped because input length 16 exceeds the safe limit 12.,2026-06-01T19:25:02.822171+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings16.txt,16,16,,,,skipped_by_safety_limit,Skipped because input length 16 exceeds the safe limit 12.,2026-06-01T19:25:02.822175+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings16.txt,16,16,,,,skipped_by_safety_limit,Skipped because input length 16 exceeds the safe limit 12.,2026-06-01T19:25:02.822177+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings16.txt,16,16,,,,skipped_by_safety_limit,Skipped because input length 16 exceeds the safe limit 12.,2026-06-01T19:25:02.822179+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings16.txt,16,16,,,,skipped_by_safety_limit,Skipped because input length 16 exceeds the safe limit 12.,2026-06-01T19:25:02.822192+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings16.txt,16,16,,,,skipped_by_safety_limit,Skipped because input length 16 exceeds the safe limit 12.,2026-06-01T19:25:02.822194+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings16.txt,16,16,,,,skipped_by_safety_limit,Skipped because input length 16 exceeds the safe limit 12.,2026-06-01T19:25:02.822196+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings17.txt,17,17,7,0.000076107,289,completed,,2026-06-01T19:25:02.871460+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings17.txt,17,17,7,0.000108884,289,completed,,2026-06-01T19:25:02.949255+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings17.txt,17,17,7,0.000059278,289,completed,,2026-06-01T19:25:02.999487+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings17.txt,17,17,7,0.000056281,289,completed,,2026-06-01T19:25:03.050292+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings17.txt,17,17,7,0.000053233,289,completed,,2026-06-01T19:25:03.097425+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings17.txt,17,17,7,0.000119341,289,completed,,2026-06-01T19:25:03.154956+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings17.txt,17,17,7,0.000051897,289,completed,,2026-06-01T19:25:03.201053+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings17.txt,17,17,7,0.135990711,1844836,completed,,2026-06-01T19:25:03.383608+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings17.txt,17,17,7,0.127856328,1844836,completed,,2026-06-01T19:25:03.557931+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings17.txt,17,17,7,0.127833878,1844836,completed,,2026-06-01T19:25:03.731862+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings17.txt,17,17,7,0.130495983,1844836,completed,,2026-06-01T19:25:03.907629+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings17.txt,17,17,7,0.125124133,1844836,completed,,2026-06-01T19:25:04.078126+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings17.txt,17,17,7,0.128114891,1844836,completed,,2026-06-01T19:25:04.250911+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings17.txt,17,17,7,0.242967109,1844836,completed,,2026-06-01T19:25:04.546943+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings17.txt,17,17,,,,skipped_by_safety_limit,Skipped because input length 17 exceeds the safe limit 12.,2026-06-01T19:25:04.546971+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings17.txt,17,17,,,,skipped_by_safety_limit,Skipped because input length 17 exceeds the safe limit 12.,2026-06-01T19:25:04.546976+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings17.txt,17,17,,,,skipped_by_safety_limit,Skipped because input length 17 exceeds the safe limit 12.,2026-06-01T19:25:04.546979+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings17.txt,17,17,,,,skipped_by_safety_limit,Skipped because input length 17 exceeds the safe limit 12.,2026-06-01T19:25:04.546993+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings17.txt,17,17,,,,skipped_by_safety_limit,Skipped because input length 17 exceeds the safe limit 12.,2026-06-01T19:25:04.546997+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings17.txt,17,17,,,,skipped_by_safety_limit,Skipped because input length 17 exceeds the safe limit 12.,2026-06-01T19:25:04.547000+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings17.txt,17,17,,,,skipped_by_safety_limit,Skipped because input length 17 exceeds the safe limit 12.,2026-06-01T19:25:04.547003+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings18.txt,18,18,5,0.000125798,324,completed,,2026-06-01T19:25:04.639960+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings18.txt,18,18,5,0.000151657,324,completed,,2026-06-01T19:25:04.724304+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings18.txt,18,18,5,0.000125090,324,completed,,2026-06-01T19:25:04.804406+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings18.txt,18,18,5,0.000122648,324,completed,,2026-06-01T19:25:04.863249+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings18.txt,18,18,5,0.000064881,324,completed,,2026-06-01T19:25:04.937365+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings18.txt,18,18,5,0.000142899,324,completed,,2026-06-01T19:25:05.018275+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings18.txt,18,18,5,0.000114879,324,completed,,2026-06-01T19:25:05.101126+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings18.txt,18,18,5,0.473506159,4613465,completed,,2026-06-01T19:25:05.641153+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings18.txt,18,18,5,0.390226550,4613465,completed,,2026-06-01T19:25:06.081259+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings18.txt,18,18,5,0.329029130,4613465,completed,,2026-06-01T19:25:06.470156+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings18.txt,18,18,5,0.323623240,4613465,completed,,2026-06-01T19:25:06.842996+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings18.txt,18,18,5,0.345076871,4613465,completed,,2026-06-01T19:25:07.232377+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings18.txt,18,18,5,0.383905672,4613465,completed,,2026-06-01T19:25:07.663168+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings18.txt,18,18,5,0.389512164,4613465,completed,,2026-06-01T19:25:08.125489+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings18.txt,18,18,,,,skipped_by_safety_limit,Skipped because input length 18 exceeds the safe limit 12.,2026-06-01T19:25:08.125510+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings18.txt,18,18,,,,skipped_by_safety_limit,Skipped because input length 18 exceeds the safe limit 12.,2026-06-01T19:25:08.125513+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings18.txt,18,18,,,,skipped_by_safety_limit,Skipped because input length 18 exceeds the safe limit 12.,2026-06-01T19:25:08.125522+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings18.txt,18,18,,,,skipped_by_safety_limit,Skipped because input length 18 exceeds the safe limit 12.,2026-06-01T19:25:08.125524+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings18.txt,18,18,,,,skipped_by_safety_limit,Skipped because input length 18 exceeds the safe limit 12.,2026-06-01T19:25:08.125526+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings18.txt,18,18,,,,skipped_by_safety_limit,Skipped because input length 18 exceeds the safe limit 12.,2026-06-01T19:25:08.125527+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings18.txt,18,18,,,,skipped_by_safety_limit,Skipped because input length 18 exceeds the safe limit 12.,2026-06-01T19:25:08.125529+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings19.txt,19,19,6,0.000122284,361,completed,,2026-06-01T19:25:08.209202+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings19.txt,19,19,6,0.000113287,361,completed,,2026-06-01T19:25:08.268353+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings19.txt,19,19,6,0.000069592,361,completed,,2026-06-01T19:25:08.325085+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings19.txt,19,19,6,0.000121936,361,completed,,2026-06-01T19:25:08.375861+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings19.txt,19,19,6,0.000092074,361,completed,,2026-06-01T19:25:08.431036+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings19.txt,19,19,6,0.000064628,361,completed,,2026-06-01T19:25:08.477483+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings19.txt,19,19,6,0.000070205,361,completed,,2026-06-01T19:25:08.523800+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 18.,2026-06-01T19:25:08.523819+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 18.,2026-06-01T19:25:08.523822+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 18.,2026-06-01T19:25:08.523824+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 18.,2026-06-01T19:25:08.523826+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 18.,2026-06-01T19:25:08.523828+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 18.,2026-06-01T19:25:08.523830+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 18.,2026-06-01T19:25:08.523831+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 12.,2026-06-01T19:25:08.523834+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 12.,2026-06-01T19:25:08.523844+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 12.,2026-06-01T19:25:08.523846+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 12.,2026-06-01T19:25:08.523847+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 12.,2026-06-01T19:25:08.523849+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 12.,2026-06-01T19:25:08.523850+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings19.txt,19,19,,,,skipped_by_safety_limit,Skipped because input length 19 exceeds the safe limit 12.,2026-06-01T19:25:08.523852+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings20.txt,20,20,5,0.000068152,400,completed,,2026-06-01T19:25:08.573326+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings20.txt,20,20,5,0.000084813,400,completed,,2026-06-01T19:25:08.618531+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings20.txt,20,20,5,0.000134103,400,completed,,2026-06-01T19:25:08.672989+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings20.txt,20,20,5,0.000110480,400,completed,,2026-06-01T19:25:08.724700+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings20.txt,20,20,5,0.000069855,400,completed,,2026-06-01T19:25:08.779094+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings20.txt,20,20,5,0.000064702,400,completed,,2026-06-01T19:25:08.830105+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings20.txt,20,20,5,0.000073710,400,completed,,2026-06-01T19:25:08.875258+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 18.,2026-06-01T19:25:08.875291+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 18.,2026-06-01T19:25:08.875299+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 18.,2026-06-01T19:25:08.875305+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 18.,2026-06-01T19:25:08.875310+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 18.,2026-06-01T19:25:08.875314+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 18.,2026-06-01T19:25:08.875319+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 18.,2026-06-01T19:25:08.875323+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 12.,2026-06-01T19:25:08.875349+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 12.,2026-06-01T19:25:08.875355+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 12.,2026-06-01T19:25:08.875360+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 12.,2026-06-01T19:25:08.875364+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 12.,2026-06-01T19:25:08.875369+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 12.,2026-06-01T19:25:08.875373+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings20.txt,20,20,,,,skipped_by_safety_limit,Skipped because input length 20 exceeds the safe limit 12.,2026-06-01T19:25:08.875378+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings21.txt,21,21,5,0.000075127,441,completed,,2026-06-01T19:25:08.927946+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings21.txt,21,21,5,0.000076231,441,completed,,2026-06-01T19:25:08.976534+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings21.txt,21,21,5,0.000109401,441,completed,,2026-06-01T19:25:09.026740+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings21.txt,21,21,5,0.000153596,441,completed,,2026-06-01T19:25:09.079415+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings21.txt,21,21,5,0.000077994,441,completed,,2026-06-01T19:25:09.133053+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings21.txt,21,21,5,0.000071370,441,completed,,2026-06-01T19:25:09.184885+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings21.txt,21,21,5,0.000074026,441,completed,,2026-06-01T19:25:09.228347+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 18.,2026-06-01T19:25:09.228368+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 18.,2026-06-01T19:25:09.228372+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 18.,2026-06-01T19:25:09.228374+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 18.,2026-06-01T19:25:09.228376+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 18.,2026-06-01T19:25:09.228377+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 18.,2026-06-01T19:25:09.228379+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 18.,2026-06-01T19:25:09.228387+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 12.,2026-06-01T19:25:09.228390+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 12.,2026-06-01T19:25:09.228392+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 12.,2026-06-01T19:25:09.228394+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 12.,2026-06-01T19:25:09.228395+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 12.,2026-06-01T19:25:09.228397+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 12.,2026-06-01T19:25:09.228399+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings21.txt,21,21,,,,skipped_by_safety_limit,Skipped because input length 21 exceeds the safe limit 12.,2026-06-01T19:25:09.228400+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings22.txt,22,22,7,0.000085442,484,completed,,2026-06-01T19:25:09.274997+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings22.txt,22,22,7,0.000075878,484,completed,,2026-06-01T19:25:09.318610+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings22.txt,22,22,7,0.000077862,484,completed,,2026-06-01T19:25:09.361169+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings22.txt,22,22,7,0.000080171,484,completed,,2026-06-01T19:25:09.415220+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings22.txt,22,22,7,0.000091196,484,completed,,2026-06-01T19:25:09.480160+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings22.txt,22,22,7,0.000082375,484,completed,,2026-06-01T19:25:09.526927+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings22.txt,22,22,7,0.000084250,484,completed,,2026-06-01T19:25:09.581849+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 18.,2026-06-01T19:25:09.581887+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 18.,2026-06-01T19:25:09.581895+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 18.,2026-06-01T19:25:09.581900+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 18.,2026-06-01T19:25:09.581905+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 18.,2026-06-01T19:25:09.581909+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 18.,2026-06-01T19:25:09.581935+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 18.,2026-06-01T19:25:09.581942+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 12.,2026-06-01T19:25:09.581950+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 12.,2026-06-01T19:25:09.581954+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 12.,2026-06-01T19:25:09.581958+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 12.,2026-06-01T19:25:09.581962+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 12.,2026-06-01T19:25:09.581965+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 12.,2026-06-01T19:25:09.581969+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings22.txt,22,22,,,,skipped_by_safety_limit,Skipped because input length 22 exceeds the safe limit 12.,2026-06-01T19:25:09.581973+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings23.txt,23,23,7,0.000087262,529,completed,,2026-06-01T19:25:09.647936+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings23.txt,23,23,7,0.000093983,529,completed,,2026-06-01T19:25:09.705095+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings23.txt,23,23,7,0.000116651,529,completed,,2026-06-01T19:25:09.752693+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings23.txt,23,23,7,0.000082522,529,completed,,2026-06-01T19:25:09.797362+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings23.txt,23,23,7,0.000084733,529,completed,,2026-06-01T19:25:09.843430+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings23.txt,23,23,7,0.000121777,529,completed,,2026-06-01T19:25:09.888738+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings23.txt,23,23,7,0.000083176,529,completed,,2026-06-01T19:25:09.936122+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 18.,2026-06-01T19:25:09.936142+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 18.,2026-06-01T19:25:09.936144+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 18.,2026-06-01T19:25:09.936146+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 18.,2026-06-01T19:25:09.936147+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 18.,2026-06-01T19:25:09.936156+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 18.,2026-06-01T19:25:09.936157+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 18.,2026-06-01T19:25:09.936159+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 12.,2026-06-01T19:25:09.936162+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 12.,2026-06-01T19:25:09.936163+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 12.,2026-06-01T19:25:09.936166+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 12.,2026-06-01T19:25:09.936168+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 12.,2026-06-01T19:25:09.936169+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 12.,2026-06-01T19:25:09.936171+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings23.txt,23,23,,,,skipped_by_safety_limit,Skipped because input length 23 exceeds the safe limit 12.,2026-06-01T19:25:09.936172+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings24.txt,24,24,5,0.000088687,576,completed,,2026-06-01T19:25:09.983039+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings24.txt,24,24,5,0.000094645,576,completed,,2026-06-01T19:25:10.026198+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings24.txt,24,24,5,0.000098150,576,completed,,2026-06-01T19:25:10.081038+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings24.txt,24,24,5,0.000183984,576,completed,,2026-06-01T19:25:10.142378+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings24.txt,24,24,5,0.000130419,576,completed,,2026-06-01T19:25:10.193517+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings24.txt,24,24,5,0.000092203,576,completed,,2026-06-01T19:25:10.244601+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings24.txt,24,24,5,0.000109599,576,completed,,2026-06-01T19:25:10.288635+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 18.,2026-06-01T19:25:10.288654+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 18.,2026-06-01T19:25:10.288658+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 18.,2026-06-01T19:25:10.288660+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 18.,2026-06-01T19:25:10.288669+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 18.,2026-06-01T19:25:10.288671+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 18.,2026-06-01T19:25:10.288672+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 18.,2026-06-01T19:25:10.288674+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 12.,2026-06-01T19:25:10.288677+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 12.,2026-06-01T19:25:10.288679+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 12.,2026-06-01T19:25:10.288681+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 12.,2026-06-01T19:25:10.288682+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 12.,2026-06-01T19:25:10.288684+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 12.,2026-06-01T19:25:10.288685+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings24.txt,24,24,,,,skipped_by_safety_limit,Skipped because input length 24 exceeds the safe limit 12.,2026-06-01T19:25:10.288689+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings25.txt,25,25,8,0.000104757,625,completed,,2026-06-01T19:25:10.334575+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings25.txt,25,25,8,0.000097432,625,completed,,2026-06-01T19:25:10.377234+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings25.txt,25,25,8,0.000101079,625,completed,,2026-06-01T19:25:10.428764+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings25.txt,25,25,8,0.000096527,625,completed,,2026-06-01T19:25:10.477714+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings25.txt,25,25,8,0.000094540,625,completed,,2026-06-01T19:25:10.529610+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings25.txt,25,25,8,0.000099774,625,completed,,2026-06-01T19:25:10.573974+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings25.txt,25,25,8,0.000184867,625,completed,,2026-06-01T19:25:10.619293+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 18.,2026-06-01T19:25:10.619315+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 18.,2026-06-01T19:25:10.619317+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 18.,2026-06-01T19:25:10.619326+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 18.,2026-06-01T19:25:10.619328+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 18.,2026-06-01T19:25:10.619329+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 18.,2026-06-01T19:25:10.619331+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 18.,2026-06-01T19:25:10.619333+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 12.,2026-06-01T19:25:10.619335+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 12.,2026-06-01T19:25:10.619337+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 12.,2026-06-01T19:25:10.619339+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 12.,2026-06-01T19:25:10.619340+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 12.,2026-06-01T19:25:10.619342+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 12.,2026-06-01T19:25:10.619345+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings25.txt,25,25,,,,skipped_by_safety_limit,Skipped because input length 25 exceeds the safe limit 12.,2026-06-01T19:25:10.619347+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings26.txt,26,26,8,0.000104526,676,completed,,2026-06-01T19:25:10.667473+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings26.txt,26,26,8,0.000187757,676,completed,,2026-06-01T19:25:10.720193+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings26.txt,26,26,8,0.000102247,676,completed,,2026-06-01T19:25:10.766399+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings26.txt,26,26,8,0.000111371,676,completed,,2026-06-01T19:25:10.814706+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings26.txt,26,26,8,0.000142308,676,completed,,2026-06-01T19:25:10.859328+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings26.txt,26,26,8,0.000098949,676,completed,,2026-06-01T19:25:10.906627+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings26.txt,26,26,8,0.000100541,676,completed,,2026-06-01T19:25:10.950930+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 18.,2026-06-01T19:25:10.950951+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 18.,2026-06-01T19:25:10.950960+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 18.,2026-06-01T19:25:10.950963+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 18.,2026-06-01T19:25:10.950964+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 18.,2026-06-01T19:25:10.950966+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 18.,2026-06-01T19:25:10.950967+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 18.,2026-06-01T19:25:10.950969+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 12.,2026-06-01T19:25:10.950971+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 12.,2026-06-01T19:25:10.950973+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 12.,2026-06-01T19:25:10.950975+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 12.,2026-06-01T19:25:10.950977+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 12.,2026-06-01T19:25:10.950980+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 12.,2026-06-01T19:25:10.950985+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings26.txt,26,26,,,,skipped_by_safety_limit,Skipped because input length 26 exceeds the safe limit 12.,2026-06-01T19:25:10.950987+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings27.txt,27,27,7,0.000107375,729,completed,,2026-06-01T19:25:10.993473+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings27.txt,27,27,7,0.000105350,729,completed,,2026-06-01T19:25:11.035631+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings27.txt,27,27,7,0.000103437,729,completed,,2026-06-01T19:25:11.082134+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings27.txt,27,27,7,0.000232991,729,completed,,2026-06-01T19:25:11.141361+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings27.txt,27,27,7,0.000106654,729,completed,,2026-06-01T19:25:11.215290+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings27.txt,27,27,7,0.000113862,729,completed,,2026-06-01T19:25:11.279765+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings27.txt,27,27,7,0.000120394,729,completed,,2026-06-01T19:25:11.337977+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 18.,2026-06-01T19:25:11.338006+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 18.,2026-06-01T19:25:11.338011+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 18.,2026-06-01T19:25:11.338014+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 18.,2026-06-01T19:25:11.338017+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 18.,2026-06-01T19:25:11.338020+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 18.,2026-06-01T19:25:11.338022+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 18.,2026-06-01T19:25:11.338025+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 12.,2026-06-01T19:25:11.338045+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 12.,2026-06-01T19:25:11.338052+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 12.,2026-06-01T19:25:11.338055+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 12.,2026-06-01T19:25:11.338069+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 12.,2026-06-01T19:25:11.338072+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 12.,2026-06-01T19:25:11.338075+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings27.txt,27,27,,,,skipped_by_safety_limit,Skipped because input length 27 exceeds the safe limit 12.,2026-06-01T19:25:11.338078+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings28.txt,28,28,7,0.000142402,784,completed,,2026-06-01T19:25:11.409192+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings28.txt,28,28,7,0.000121195,784,completed,,2026-06-01T19:25:11.476592+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings28.txt,28,28,7,0.000117125,784,completed,,2026-06-01T19:25:11.520580+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings28.txt,28,28,7,0.000119424,784,completed,,2026-06-01T19:25:11.564219+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings28.txt,28,28,7,0.000119033,784,completed,,2026-06-01T19:25:11.608958+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings28.txt,28,28,7,0.000133031,784,completed,,2026-06-01T19:25:11.653958+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings28.txt,28,28,7,0.000149729,784,completed,,2026-06-01T19:25:11.697678+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 18.,2026-06-01T19:25:11.697698+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 18.,2026-06-01T19:25:11.697702+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 18.,2026-06-01T19:25:11.697704+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 18.,2026-06-01T19:25:11.697705+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 18.,2026-06-01T19:25:11.697707+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 18.,2026-06-01T19:25:11.697709+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 18.,2026-06-01T19:25:11.697710+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 12.,2026-06-01T19:25:11.697713+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 12.,2026-06-01T19:25:11.697715+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 12.,2026-06-01T19:25:11.697723+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 12.,2026-06-01T19:25:11.697725+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 12.,2026-06-01T19:25:11.697727+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 12.,2026-06-01T19:25:11.697728+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings28.txt,28,28,,,,skipped_by_safety_limit,Skipped because input length 28 exceeds the safe limit 12.,2026-06-01T19:25:11.697730+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings29.txt,29,29,8,0.000120677,841,completed,,2026-06-01T19:25:11.742721+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings29.txt,29,29,8,0.000131758,841,completed,,2026-06-01T19:25:11.785615+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings29.txt,29,29,8,0.000122356,841,completed,,2026-06-01T19:25:11.827628+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings29.txt,29,29,8,0.000125348,841,completed,,2026-06-01T19:25:11.869746+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings29.txt,29,29,8,0.000131671,841,completed,,2026-06-01T19:25:11.912109+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings29.txt,29,29,8,0.000123812,841,completed,,2026-06-01T19:25:11.955948+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings29.txt,29,29,8,0.000122090,841,completed,,2026-06-01T19:25:12.000260+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 18.,2026-06-01T19:25:12.000282+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 18.,2026-06-01T19:25:12.000284+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 18.,2026-06-01T19:25:12.000286+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 18.,2026-06-01T19:25:12.000288+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 18.,2026-06-01T19:25:12.000290+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 18.,2026-06-01T19:25:12.000292+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 18.,2026-06-01T19:25:12.000294+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 12.,2026-06-01T19:25:12.000296+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 12.,2026-06-01T19:25:12.000306+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 12.,2026-06-01T19:25:12.000307+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 12.,2026-06-01T19:25:12.000309+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 12.,2026-06-01T19:25:12.000311+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 12.,2026-06-01T19:25:12.000312+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings29.txt,29,29,,,,skipped_by_safety_limit,Skipped because input length 29 exceeds the safe limit 12.,2026-06-01T19:25:12.000314+00:00
+20260601T192445Z-09cf8667,1,True,dynamic_programming,data/database2,Strings30.txt,30,30,6,0.000129986,900,completed,,2026-06-01T19:25:12.043327+00:00
+20260601T192445Z-09cf8667,2,False,dynamic_programming,data/database2,Strings30.txt,30,30,6,0.000156845,900,completed,,2026-06-01T19:25:12.111713+00:00
+20260601T192445Z-09cf8667,3,False,dynamic_programming,data/database2,Strings30.txt,30,30,6,0.000136179,900,completed,,2026-06-01T19:25:12.172496+00:00
+20260601T192445Z-09cf8667,4,False,dynamic_programming,data/database2,Strings30.txt,30,30,6,0.000136097,900,completed,,2026-06-01T19:25:12.222567+00:00
+20260601T192445Z-09cf8667,5,False,dynamic_programming,data/database2,Strings30.txt,30,30,6,0.000135018,900,completed,,2026-06-01T19:25:12.270019+00:00
+20260601T192445Z-09cf8667,6,False,dynamic_programming,data/database2,Strings30.txt,30,30,6,0.000134265,900,completed,,2026-06-01T19:25:12.321036+00:00
+20260601T192445Z-09cf8667,7,False,dynamic_programming,data/database2,Strings30.txt,30,30,6,0.000130162,900,completed,,2026-06-01T19:25:12.364210+00:00
+20260601T192445Z-09cf8667,1,True,brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 18.,2026-06-01T19:25:12.364231+00:00
+20260601T192445Z-09cf8667,2,False,brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 18.,2026-06-01T19:25:12.364234+00:00
+20260601T192445Z-09cf8667,3,False,brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 18.,2026-06-01T19:25:12.364236+00:00
+20260601T192445Z-09cf8667,4,False,brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 18.,2026-06-01T19:25:12.364237+00:00
+20260601T192445Z-09cf8667,5,False,brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 18.,2026-06-01T19:25:12.364239+00:00
+20260601T192445Z-09cf8667,6,False,brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 18.,2026-06-01T19:25:12.364240+00:00
+20260601T192445Z-09cf8667,7,False,brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 18.,2026-06-01T19:25:12.364242+00:00
+20260601T192445Z-09cf8667,1,True,recursive_brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 12.,2026-06-01T19:25:12.364250+00:00
+20260601T192445Z-09cf8667,2,False,recursive_brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 12.,2026-06-01T19:25:12.364252+00:00
+20260601T192445Z-09cf8667,3,False,recursive_brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 12.,2026-06-01T19:25:12.364254+00:00
+20260601T192445Z-09cf8667,4,False,recursive_brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 12.,2026-06-01T19:25:12.364255+00:00
+20260601T192445Z-09cf8667,5,False,recursive_brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 12.,2026-06-01T19:25:12.364257+00:00
+20260601T192445Z-09cf8667,6,False,recursive_brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 12.,2026-06-01T19:25:12.364258+00:00
+20260601T192445Z-09cf8667,7,False,recursive_brute_force,data/database2,Strings30.txt,30,30,,,,skipped_by_safety_limit,Skipped because input length 30 exceeds the safe limit 12.,2026-06-01T19:25:12.364260+00:00
