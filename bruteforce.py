@@ -1,52 +1,46 @@
+from itertools import combinations
+from time import perf_counter
 
-import time
+
 class BruteForceLCS:
-    comp = 0
+    def __init__(self):
+        self.comp = 0
 
-    def lcs(self, str1, str2):
-        start = time.time()
-        size = len(str1) - 1
-        m = (1 << size) - 1
-        maxLen = 0
+    def lcs(self, string_a, string_b):
+        self.comp = 0
+        start = perf_counter()
+
+        base, target = self._ordered_inputs(string_a, string_b)
         longest = ""
-        step = -1
 
-        for i in range(m, 0, step):
-            sub = self.getSubString(i, str1)
-            isSeq = self.isSubSeq(sub, str2)
-            if isSeq:
-                if len(sub) > maxLen:
-                    longest = sub
-                    maxLen = len(sub)
+        for size in range(len(base), 0, -1):
+            for indexes in combinations(range(len(base)), size):
+                candidate = "".join(base[index] for index in indexes)
+                if self.isSubSeq(candidate, target):
+                    longest = candidate
+                    execution_time = perf_counter() - start
+                    return len(longest), execution_time, self.comp, longest
 
-        end = time.time()
-        executionTime = end - start
+        execution_time = perf_counter() - start
+        return 0, execution_time, self.comp, longest
 
-        return len(longest), executionTime, self.comp, longest
+    def isSubSeq(self, sub, target):
+        if not sub:
+            return True
 
-    def getSubString(self, m, str1):
-        s = ""
-        size = len(str1)-1
-        for i in range(1, size+1):
-            if self.isOne(m, i):
-                s = str1[size - i] + s
+        sub_index = 0
 
-        return s
-
-    def isSubSeq(self, sub, str2):
-        si = 0
-        size = len(str2)
-
-        for i in range(size):
-            self.comp = self.comp + 1
-            if sub[si] == str2[i]:
-                si = si + 1
-                if si == len(sub):
+        for char in target:
+            self.comp += 1
+            if sub[sub_index] == char:
+                sub_index += 1
+                if sub_index == len(sub):
                     return True
 
         return False
 
-    def isOne(self, m, i):
-        i = i - 1
-        k = m & (1 << i)
-        return k > 0
+    def _ordered_inputs(self, string_a, string_b):
+        if len(string_a) <= len(string_b):
+            return string_a, string_b
+
+        return string_b, string_a
