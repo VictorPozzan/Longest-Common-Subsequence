@@ -83,6 +83,12 @@ If you also want chart generation support:
 python -m pip install -e .[charts]
 ```
 
+Run the automated test suite before publishing benchmark artifacts:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
 The repository currently uses:
 
 - `data/database1/` for larger input files

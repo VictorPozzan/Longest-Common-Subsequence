@@ -5,15 +5,18 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
+TESTS = Path(__file__).resolve().parent
 
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
+if str(TESTS) not in sys.path:
+    sys.path.insert(0, str(TESTS))
 
 from lcs.algorithms.brute_force import BruteForceLCS
 from lcs.algorithms.dynamic_programming import DynamicLCS
 from lcs.algorithms.recursive_brute_force import BFRecursiveLCS
 from lcs.datasets import read_pair
-from lcs.models import LCSResult
+from helpers import assert_valid_result
 
 
 class DataTests(unittest.TestCase):
@@ -29,46 +32,31 @@ class DataTests(unittest.TestCase):
 
 
 class AlgorithmTests(unittest.TestCase):
-    def assert_is_subsequence(self, candidate, sequence):
-        index = 0
+    def test_all_algorithms_pass_required_correctness_cases(self):
+        cases = [
+            ("ABCBDAB", "BDCABA", 4),
+            ("ABC", "ABC", 3),
+            ("ABC", "DEF", 0),
+            ("", "ABC", 0),
+            ("ABC", "", 0),
+        ]
+        algorithms = [DynamicLCS, BruteForceLCS, BFRecursiveLCS]
 
-        for char in sequence:
-            if index < len(candidate) and candidate[index] == char:
-                index += 1
-
-        self.assertEqual(index, len(candidate))
-
-    def assert_valid_result(self, result, string_a, string_b, expected_length):
-        self.assertIsInstance(result, LCSResult)
-        self.assertEqual(result.input_a, string_a)
-        self.assertEqual(result.input_b, string_b)
-        self.assertEqual(result.input_size_a, len(string_a))
-        self.assertEqual(result.input_size_b, len(string_b))
-        self.assertEqual(result.lcs_length, expected_length)
-        self.assertEqual(result.lcs_length, len(result.lcs))
-        self.assertGreaterEqual(result.comparisons, 0)
-        self.assert_is_subsequence(result.lcs, string_a)
-        self.assert_is_subsequence(result.lcs, string_b)
-
-    def test_dynamic_and_bruteforce_match_known_case(self):
-        string_a = "ABCBDAB"
-        string_b = "BDCABA"
-
-        dynamic_result = DynamicLCS().solve(string_a, string_b)
-        brute_force_result = BruteForceLCS().solve(string_a, string_b)
-
-        self.assert_valid_result(dynamic_result, string_a, string_b, 4)
-        self.assert_valid_result(brute_force_result, string_a, string_b, 4)
-        self.assertEqual(dynamic_result.lcs_length, brute_force_result.lcs_length)
-
-    def test_recursive_algorithm_returns_valid_subsequence(self):
-        string_a = "ABC"
-        string_b = "AC"
-
-        result = BFRecursiveLCS().solve(string_a, string_b)
-
-        self.assert_valid_result(result, string_a, string_b, 2)
-        self.assertEqual(result.lcs, "AC")
+        for algorithm_class in algorithms:
+            for string_a, string_b, expected_length in cases:
+                with self.subTest(
+                    algorithm=algorithm_class.__name__,
+                    string_a=string_a,
+                    string_b=string_b,
+                ):
+                    result = algorithm_class().solve(string_a, string_b)
+                    assert_valid_result(
+                        self,
+                        result,
+                        string_a,
+                        string_b,
+                        expected_length,
+                    )
 
     def test_all_algorithms_use_standard_interface(self):
         string_a = "ABC"
@@ -84,7 +72,7 @@ class AlgorithmTests(unittest.TestCase):
 
         for algorithm in algorithms:
             result = algorithm.solve(string_a, string_b)
-            self.assert_valid_result(result, string_a, string_b, 3)
+            assert_valid_result(self, result, string_a, string_b, 3)
             actual_names.add(result.algorithm)
 
         self.assertEqual(actual_names, expected_names)

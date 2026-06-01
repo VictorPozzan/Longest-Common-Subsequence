@@ -1,7 +1,9 @@
 import csv
+import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -13,6 +15,7 @@ if str(SRC) not in sys.path:
 from lcs.benchmark import (
     RAW_BENCHMARK_FIELDNAMES,
     benchmark_dataset,
+    run_algorithm_subprocess,
     summarize_benchmark_rows,
 )
 
@@ -144,6 +147,108 @@ class BenchmarkTests(unittest.TestCase):
         self.assertEqual(len(summary_rows), 1)
         self.assertEqual(summary_rows[0]["status_summary"], "timeout")
         self.assertEqual(summary_rows[0]["completed_runs"], "0")
+
+    def test_run_algorithm_subprocess_returns_timeout_status(self):
+        with tempfile.TemporaryDirectory() as directory:
+            file_path = Path(directory) / "sample.txt"
+            file_path.write_text("ABC\nABC\n", encoding="utf-8")
+
+            with patch(
+                "lcs.benchmark.subprocess.run",
+                side_effect=subprocess.TimeoutExpired(cmd=["python3"], timeout=0.01),
+            ):
+                result = run_algorithm_subprocess(
+                    "dynamic_programming",
+                    file_path,
+                    "ABC",
+                    "ABC",
+                    timeout_seconds=0.01,
+                )
+
+        self.assertEqual(result.algorithm, "dynamic_programming")
+        self.assertEqual(result.status, "timeout")
+        self.assertEqual(result.elapsed_seconds, 0.0)
+        self.assertIn("Timed out after 0.01 seconds.", result.message)
+
+    def test_summary_calculates_mean_and_median_from_measured_runs(self):
+        rows = [
+            {
+                "run_id": "run-2",
+                "run_index": 1,
+                "is_warmup": True,
+                "algorithm": "dynamic_programming",
+                "dataset": "data/database2",
+                "input_name": "sample.txt",
+                "input_size_a": 3,
+                "input_size_b": 3,
+                "lcs_length": 2,
+                "execution_time_seconds": "0.900000000",
+                "comparisons": 99,
+                "status": "completed",
+                "error": "",
+                "timestamp": "2026-06-01T00:00:00+00:00",
+            },
+            {
+                "run_id": "run-2",
+                "run_index": 2,
+                "is_warmup": False,
+                "algorithm": "dynamic_programming",
+                "dataset": "data/database2",
+                "input_name": "sample.txt",
+                "input_size_a": 3,
+                "input_size_b": 3,
+                "lcs_length": 2,
+                "execution_time_seconds": "0.100000000",
+                "comparisons": 10,
+                "status": "completed",
+                "error": "",
+                "timestamp": "2026-06-01T00:00:01+00:00",
+            },
+            {
+                "run_id": "run-2",
+                "run_index": 3,
+                "is_warmup": False,
+                "algorithm": "dynamic_programming",
+                "dataset": "data/database2",
+                "input_name": "sample.txt",
+                "input_size_a": 3,
+                "input_size_b": 3,
+                "lcs_length": 2,
+                "execution_time_seconds": "0.300000000",
+                "comparisons": 30,
+                "status": "completed",
+                "error": "",
+                "timestamp": "2026-06-01T00:00:02+00:00",
+            },
+            {
+                "run_id": "run-2",
+                "run_index": 4,
+                "is_warmup": False,
+                "algorithm": "dynamic_programming",
+                "dataset": "data/database2",
+                "input_name": "sample.txt",
+                "input_size_a": 3,
+                "input_size_b": 3,
+                "lcs_length": 2,
+                "execution_time_seconds": "0.200000000",
+                "comparisons": 20,
+                "status": "completed",
+                "error": "",
+                "timestamp": "2026-06-01T00:00:03+00:00",
+            },
+        ]
+
+        summary_rows = summarize_benchmark_rows(rows)
+
+        self.assertEqual(len(summary_rows), 1)
+        self.assertEqual(summary_rows[0]["completed_runs"], "3")
+        self.assertEqual(summary_rows[0]["status_summary"], "completed")
+        self.assertEqual(summary_rows[0]["mean_time_seconds"], "0.200000000")
+        self.assertEqual(summary_rows[0]["median_time_seconds"], "0.200000000")
+        self.assertEqual(summary_rows[0]["min_time_seconds"], "0.100000000")
+        self.assertEqual(summary_rows[0]["max_time_seconds"], "0.300000000")
+        self.assertEqual(summary_rows[0]["mean_comparisons"], "20.00")
+        self.assertEqual(summary_rows[0]["lcs_length"], "2")
 
 
 if __name__ == "__main__":
