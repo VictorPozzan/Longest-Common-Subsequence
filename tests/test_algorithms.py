@@ -1,11 +1,18 @@
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
-from Data import Data
-from bfrecursive import BFRecursiveLCS
-from bruteforce import BruteForceLCS
-from dynamic import DynamicLCS
+ROOT = Path(__file__).resolve().parents[1]
+SRC = ROOT / "src"
+
+if str(SRC) not in sys.path:
+    sys.path.insert(0, str(SRC))
+
+from lcs.algorithms.brute_force import BruteForceLCS
+from lcs.algorithms.dynamic_programming import DynamicLCS
+from lcs.algorithms.recursive_brute_force import BFRecursiveLCS
+from lcs.datasets import read_pair
 
 
 class DataTests(unittest.TestCase):
@@ -14,7 +21,7 @@ class DataTests(unittest.TestCase):
             file_path = Path(directory) / "sample.txt"
             file_path.write_text("A B C\nA  C\n", encoding="utf-8")
 
-            string_a, string_b = Data().cleanData(file_path)
+            string_a, string_b = read_pair(file_path)
 
         self.assertEqual(string_a, "ABC")
         self.assertEqual(string_b, "AC")
