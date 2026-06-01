@@ -47,30 +47,38 @@ The same problem is solved with very different approaches, which makes the repos
 
 ```text
 .
-|-- Data.py
-|-- dynamic.py
-|-- bruteforce.py
-|-- bfrecursive.py
+|-- pyproject.toml
 |-- main.py
-|-- DataBase1/
-|-- DataBase2/
-|-- Results-DataBase1/
-`-- Results-DataBase2/
+|-- src/lcs/
+|-- data/
+|   |-- database1/
+|   `-- database2/
+|-- results/
+|   |-- legacy/
+|   `-- current/
+|-- tests/
+`-- plans/
 ```
 
 ## How to run
 
 Python 3.9+ is enough. There are no external dependencies.
 
+If you want to use the package module path, install the repository in editable mode:
+
+```bash
+python -m pip install -e .
+```
+
 The repository currently uses:
 
-- `DataBase1/` for larger input files
-- `DataBase2/` for smaller benchmark-friendly inputs
+- `data/database1/` for larger input files
+- `data/database2/` for smaller benchmark-friendly inputs
 
 Run a single file comparison:
 
 ```bash
-python main.py compare DataBase2/Strings02.txt
+python main.py compare data/database2/Strings02.txt
 ```
 
 Run the default example:
@@ -82,19 +90,25 @@ python main.py
 Run a benchmark over a whole dataset:
 
 ```bash
-python main.py benchmark DataBase2
+python main.py benchmark data/database2
 ```
 
 Export benchmark results to CSV:
 
 ```bash
-python main.py benchmark DataBase2 --output-csv benchmark-results.csv
+python main.py benchmark data/database2 --output-csv benchmark-results.csv
+```
+
+Run the package entry point after editable install:
+
+```bash
+python -m lcs.cli compare data/database2/Strings02.txt
 ```
 
 ## Example output
 
 ```text
-File: DataBase2/Strings02.txt
+File: data/database2/Strings02.txt
 String A (2): BD
 String B (2): BB
 
@@ -102,7 +116,7 @@ Algorithm             | Subsequence | Length | Comparisons | Time (ms) | Notes
 ----------------------+-------------+--------+-------------+-----------+------
 Dynamic programming   | B           | 1      | 4           | 0.010000  | -
 Brute force           | B           | 1      | 3           | 0.030000  | -
-Recursive brute force | B           | 1      | 4           | 0.005000  | -
+Recursive brute force | B           | 1      | 7           | 0.005000  | -
 ```
 
 ## Safety limits
@@ -115,7 +129,7 @@ Brute-force approaches grow exponentially and quickly become impractical. To kee
 If you really want to run them anyway, use:
 
 ```bash
-python main.py benchmark DataBase2 --allow-slow
+python main.py benchmark data/database2 --allow-slow
 ```
 
 ## Project status
