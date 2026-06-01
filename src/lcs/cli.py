@@ -4,6 +4,10 @@ from .benchmark import (
     ALGORITHM_DISPLAY,
     DEFAULT_DATASET,
     DEFAULT_FILE,
+    DEFAULT_BENCHMARK_OUTPUT,
+    DEFAULT_RUNS,
+    DEFAULT_TIMEOUT_SECONDS,
+    DEFAULT_WARMUP_RUNS,
     algorithm_choices,
     benchmark_dataset,
     compare_file,
@@ -58,12 +62,36 @@ def parse_args(argv=None):
     )
     benchmark_parser.add_argument(
         "--output-csv",
-        help="Optional CSV file path to export the benchmark results.",
+        dest="output",
+        help=argparse.SUPPRESS,
+    )
+    benchmark_parser.add_argument(
+        "--output",
+        default=str(DEFAULT_BENCHMARK_OUTPUT),
+        help="Raw CSV file path for benchmark rows.",
     )
     benchmark_parser.add_argument(
         "--allow-slow",
         action="store_true",
         help="Run brute-force approaches even when the input is above the safety limit.",
+    )
+    benchmark_parser.add_argument(
+        "--runs",
+        type=int,
+        default=DEFAULT_RUNS,
+        help="Number of measured runs per input and algorithm.",
+    )
+    benchmark_parser.add_argument(
+        "--warmup-runs",
+        type=int,
+        default=DEFAULT_WARMUP_RUNS,
+        help="Number of warmup runs per input and algorithm.",
+    )
+    benchmark_parser.add_argument(
+        "--timeout-seconds",
+        type=float,
+        default=DEFAULT_TIMEOUT_SECONDS,
+        help="Per-run timeout in seconds for benchmark subprocesses.",
     )
 
     return parser.parse_args(argv)
@@ -85,7 +113,10 @@ def main(argv=None):
             args.dataset,
             args.algorithms,
             args.allow_slow,
-            args.output_csv,
+            args.output,
+            args.runs,
+            args.warmup_runs,
+            args.timeout_seconds,
         )
         return
 

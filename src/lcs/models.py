@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from typing import Optional
 
 
 @dataclass
@@ -17,8 +18,8 @@ class LCSResult:
 class TimedRunResult:
     algorithm: str
     elapsed_seconds: float
-    lcs_result: LCSResult | None = None
-    status: str = "ok"
+    lcs_result: Optional[LCSResult] = None
+    status: str = "completed"
     message: str = ""
 
     @property

@@ -96,8 +96,14 @@ python main.py benchmark data/database2
 Export benchmark results to CSV:
 
 ```bash
-python main.py benchmark data/database2 --output-csv benchmark-results.csv
+python main.py benchmark data/database2 --output results/current/benchmark.csv
 ```
+
+The benchmark currently defaults to:
+
+- 1 warmup run per input and algorithm
+- 6 measured runs per input and algorithm
+- 30 seconds timeout per benchmark subprocess
 
 Run the package entry point after editable install:
 
