@@ -174,29 +174,3 @@ If you really want to run them anyway, use:
 python main.py benchmark data/database2 --allow-slow
 ```
 
-## Project status
-
-This repository is an evolving technical study focused on correctness, benchmarking, and clear documentation of algorithm behavior.
-
-## What can be explored next
-
-This repository can be extended in a few practical directions without changing its core purpose:
-
-- add automated benchmark report generation from CSV results
-- compare runtime growth with the expected theoretical complexity of each algorithm
-- add memoization as an intermediate strategy between pure recursion and dynamic programming
-- improve benchmark visualization with charts or summary tables in the repository
-- experiment with different input patterns, such as highly similar and highly distinct strings
-- optimize the dynamic programming implementation for space usage on larger inputs
-
-## Suggested talking points for a presentation
-
-If you want to present this repository, a strong narrative is:
-
-1. Introduce the LCS problem and explain why it is a classic algorithmic challenge.
-2. Show that the repository implements the same problem with three different strategies.
-3. Use a small input example to confirm that all approaches produce the same result.
-4. Highlight how runtime and comparison counts change as the input size grows.
-5. Point out where brute-force approaches stop being practical.
-6. Explain why dynamic programming scales better for this problem.
-7. Close by showing how the repository can be used as a benchmark and learning tool.
